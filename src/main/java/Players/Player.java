@@ -1,16 +1,24 @@
+package Players;
+
+
+import java.util.ArrayList;
+
 public class Player {
 
-    protected int health;
-    protected String name;
-    protected int rank;
-    protected int selected_weapon;
+    public int health;
+    public String name;
+    public int rank;
+    public int selected_weapon;
 
+
+    // Constructor
     public Player(int health, String name, int rank, int selected_weapon) {
         this.health = health;
         this.name = name;
         this.rank = rank;
         this.selected_weapon = selected_weapon;
     }
+
 
     public int getHealth() {
         return health;
@@ -36,16 +44,15 @@ public class Player {
         this.rank = rank;
     }
 
-    public int getSelected_weapon() {
+    public int getSelected_weapon(int i) {
         return selected_weapon;
     }
 
     public void setSelected_weapon(int selected_weapon) {
         this.selected_weapon = selected_weapon;
     }
+    public int attackPlayer(Player name){
 
-    public int attack(){
-
-        return 0;
+        return this.health;
     }
 }

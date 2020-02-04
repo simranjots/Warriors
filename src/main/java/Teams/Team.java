@@ -1,27 +1,45 @@
 package Teams;
-
+import Players.Player;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.Random;
 
 public class Team {
-    protected String color;
-    protected String name;
-    protected int x ;
-    protected int y;
-    protected int radius;
-    protected static int member;
-    protected boolean Lose;
-    protected boolean winner;
+    public String color;
+    public String team_name;
+    public int x = 20 ;
+    public int y = 20;
+    public int x_axis;
+    public int y_axis;
+    public int radius;
+    public int member;
+    boolean Lose = false;
+    boolean winner = false;
     protected int score;
     protected int kills;
-    protected static int max_team_members=20;
-    ArrayList<Team> weapons;
+    protected static int max_team_members = 20;
+    //Objects
+    Random rand = new Random();
+    ArrayList<Team> team_Player;
+    ArrayList<ArrayList<Player>> player;
 
-    public Team(String color, String name) {
+    // Constructor
+    public Team(String color, String team_name,ArrayList<Player> p) {
         this.color = color;
-        this.name = name;
+        this.team_name = team_name;
+        player = new ArrayList<>();
+        player.add(p);
     }
 
+
+    // player function
+
+
+    public ArrayList<ArrayList<Player>> getPlayer() {
+        return player;
+    }
+
+    //Team functions
     public int getMember() {
         return member;
     }
@@ -34,9 +52,6 @@ public class Team {
         return max_team_members;
     }
 
-    public void setMax_team_members(int max_team_members) {
-        this.max_team_members = max_team_members;
-    }
 
     public String getColor() {
         return color;
@@ -46,12 +61,12 @@ public class Team {
         this.color = color;
     }
 
-    public String getName() {
-        return name;
+    public String getTeam_name() {
+        return team_name;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setTeam_name(String team_name) {
+        this.team_name = team_name;
     }
 
     public boolean isLose() {
@@ -93,30 +108,57 @@ public class Team {
         this.radius = radius;
     }
 
-    public int getXAxis() {
+    public int getX() {
         return x;
     }
 
-    public void setXAxis(int x) {
+    public void setX(int x) {
         this.x = x;
     }
 
-    public int getYAxis() {
+    public int getY() {
         return y;
     }
 
-    public void setYAxis(int y) {
+    public void setY(int y) {
         this.y = y;
     }
 
-    // create the team here
-    public void create_Team() {
-        Random rand = new Random();
-        member = rand.nextInt(max_team_members);
-        System.out.println(member);
+
+    public int location_x_axis(){
+        x_axis =rand.nextInt(x);
+        System.out.println("X-axis = "+x_axis);
+       return x_axis;
+
     }
-    public void location(){
-        
+    public int location_y_axis(){
+        y_axis =rand.nextInt(y);
+        System.out.println("Y-axis = "+y_axis);
+        System.out.println("");
+        return y_axis;
     }
+
+    //Add Player to the Team
+    public void addPlayerToTeam(Team ob){
+        team_Player =new ArrayList<>();
+        team_Player.add(ob);
+        Iterator itr=team_Player.iterator();
+
+        while(itr.hasNext()){
+            Team st=(Team)itr.next();
+            System.out.println(" Team Name = "+st.getTeam_name()+" \n Team Color = "+st.getColor()+"\n Players = "+st.getPlayer().get(0).get(0).getRank());
+        }
+    }
+    /*public void attackTeam(Team otherteam){
+        System.out.println("Attacks");
+        for(int x = 0; x <= this.member; x++)//it doesnt display the first card
+        {
+            System.out.println(player.get(x).getHealth() + " " + player.get(x).getName() + " " + player.get(x).getRank());
+        }
+        for(int x = 0; x <=otherteam.member; x++)//it doesnt display the first card
+        {
+            System.out.println(player.get(x).getHealth() + " " + player.get(x).getName() + " " + player.get(x).getRank());
+        }
+    }*/
 
 }
