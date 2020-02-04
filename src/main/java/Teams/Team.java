@@ -128,7 +128,7 @@ public class Team {
     public int location_x_axis(){
         x_axis =rand.nextInt(x);
         System.out.println("X-axis = "+x_axis);
-       return x_axis;
+        return x_axis;
 
     }
     public int location_y_axis(){
@@ -139,14 +139,18 @@ public class Team {
     }
 
     //Add Player to the Team
-    public void addPlayerToTeam(Team ob){
+    public void addPlayerToTeam(Team ob,int members){
         team_Player =new ArrayList<>();
         team_Player.add(ob);
         Iterator itr=team_Player.iterator();
 
         while(itr.hasNext()){
             Team st=(Team)itr.next();
-            System.out.println(" Team Name = "+st.getTeam_name()+" \n Team Color = "+st.getColor()+"\n Players = "+st.getPlayer().get(0).get(0).getRank());
+            System.out.println("******* TOTAL TEAM MEMBERS = " +members+ " **************");
+            for (int i=0;i<members;i++) {
+
+                System.out.println(" Team Name = " + st.getTeam_name() + " \n Team Color = " + st.getColor() + "\n Players = " + st.getPlayer().get(0).get(i).getName());
+            }
         }
     }
     /*public void attackTeam(Team otherteam){
