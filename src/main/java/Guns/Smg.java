@@ -3,8 +3,13 @@ package Guns;
 import java.util.Random;
 
 public class Smg extends Weapon {
-    static int damage = 40;
-    static int fire_rate = 35;
+    static int damage = 35;
+    static int fire_rate = 2;
+    public int bullets;
+
+    public Smg(int bullets) {
+        this.bullets = bullets;
+    }
 
     //Objects
     Random rand_aw = new Random();

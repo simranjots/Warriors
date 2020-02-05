@@ -7,8 +7,8 @@ import java.util.Random;
 public class Team {
     public String color;
     public String team_name;
-    public int x = 20 ;
-    public int y = 20;
+    protected static int x = 15;
+    protected static int y = 15;
     public int x_axis;
     public int y_axis;
     public int radius;
@@ -24,9 +24,13 @@ public class Team {
     ArrayList<ArrayList<Player>> player;
 
     // Constructor
-    public Team(String color, String team_name,ArrayList<Player> p) {
+    public Team(String color, String team_name,ArrayList<Player> p,int mem) {
         this.color = color;
         this.team_name = team_name;
+        this.x_axis = location_x_axis();
+        this.y_axis = location_y_axis();
+        this.member =mem;
+        this.radius =10* mem;
         player = new ArrayList<>();
         player.add(p);
     }
@@ -108,61 +112,92 @@ public class Team {
         this.radius = radius;
     }
 
-    public int getX() {
-        return x;
+    public int getX_axis() {
+        return x_axis;
     }
 
-    public void setX(int x) {
-        this.x = x;
+    public void setX_axis(int x_axis) {
+        this.x_axis = x_axis;
     }
 
-    public int getY() {
-        return y;
+    public int getY_axis() {
+        return y_axis;
     }
 
-    public void setY(int y) {
-        this.y = y;
+    public void setY_axis(int y_axis) {
+        this.y_axis = y_axis;
     }
-
 
     public int location_x_axis(){
-        x_axis =rand.nextInt(x);
-        System.out.println("X-axis = "+x_axis);
+        x_axis =rand.nextInt((x - 1) + 1) + 1;
         return x_axis;
 
     }
     public int location_y_axis(){
-        y_axis =rand.nextInt(y);
-        System.out.println("Y-axis = "+y_axis);
-        System.out.println("");
+        y_axis =rand.nextInt((y - 1) + 1) + 1;
         return y_axis;
     }
 
     //Add Player to the Team
-    public void addPlayerToTeam(Team ob,int members){
+    public void addPlayerToTeam(Team ob){
         team_Player =new ArrayList<>();
         team_Player.add(ob);
         Iterator itr=team_Player.iterator();
 
         while(itr.hasNext()){
             Team st=(Team)itr.next();
-            System.out.println("******* TOTAL TEAM MEMBERS = " +members+ " **************");
-            for (int i=0;i<members;i++) {
-
-                System.out.println(" Team Name = " + st.getTeam_name() + " \n Team Color = " + st.getColor() + "\n Players = " + st.getPlayer().get(0).get(i).getName());
+            System.out.println("******* TOTAL TEAM MEMBERS = " +member+ " **************");
+            System.out.println(" \tTeam Name = " + st.getTeam_name() + "\t Team Color = " + st.getColor()+"\t Radius = " +st.getRadius()
+                    +"\t "+st.getX_axis()+","+st.getY_axis()+" \tPlayers");
+            for (int i=0;i<member;i++) {
+                System.out.println("\t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t"+st.getPlayer().get(0).get(i).getName());
             }
         }
     }
-    /*public void attackTeam(Team otherteam){
+    public boolean conflict(Team b){
+       double dist=Math.sqrt((b.x_axis-this.x_axis)*(b.x_axis-this.x_axis) + (b.y_axis-this.y_axis)*(b.y_axis-this.y_axis));
+       System.out.println(dist);
+       System.out.println("A = "+this.x_axis);
+        System.out.println("B = "+b.x_axis);
+        System.out.println("A = "+this.y_axis);
+        System.out.println("B = "+b.y_axis);
+       if(dist<=(this.radius+b.radius)) {
+           return true;
+       }
+       else {
+           return false;
+       }
+    }
+     public void moveTeam() {
+         if (this.x_axis > 2) {
+             this.setX_axis(this.x_axis - 2);
+         } else {
+             x_axis = 0;
+         }
+         if (this.y_axis > 2) {
+             this.setY_axis(this.y_axis - 2);
+         } else {
+             y_axis = 0;
+         }
+     }//moveTeam Ends
+
+      public void battleTeam(Team otherteam){
         System.out.println("Attacks");
-        for(int x = 0; x <= this.member; x++)//it doesnt display the first card
-        {
-            System.out.println(player.get(x).getHealth() + " " + player.get(x).getName() + " " + player.get(x).getRank());
-        }
-        for(int x = 0; x <=otherteam.member; x++)//it doesnt display the first card
-        {
-            System.out.println(player.get(x).getHealth() + " " + player.get(x).getName() + " " + player.get(x).getRank());
-        }
-    }*/
+          //My health and enemy health
+          System.out.println("Player " +this.getPlayer().get(0).get(0).getName()+ " fighting with " + otherteam.getPlayer().get(0).get(0).getName());
+          int h  = this.getPlayer().get(0).get(0).getHealth() - otherteam.getPlayer().get(0).get(0).getWeapons().get(0).fire();
+                this.getPlayer().get(0).get(0).setHealth(h);
+
+                System.out.println(h);
+          /*int firearm1 =this.getPlayer().get(0).get(0).getWeapons().get(0).fire_rate();
+          int dam1=this.getPlayer().get(0).get(0).getWeapons().get(0).damage();
+          int damage1 =firearm1*dam1;
+          */int h1  = otherteam.getPlayer().get(0).get(0).getHealth() - this.getPlayer().get(0).get(0).getWeapons().get(1).fire();
+          this.getPlayer().get(0).get(0).setHealth(h1);
+
+          System.out.println(h1);
+         // otherPlayer.setHealth(otherPlayer.getHealth() - this.getWeapons().get(this.getSelectedWeapon()).getDamage());
+
+      }//battleTeam Ends
 
 }

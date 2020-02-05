@@ -4,7 +4,12 @@ import java.util.Random;
 
 public class Lmg extends Weapon{
     static int damage = 25;
-    static int fire_rate = 40;
+    static int fire_rate = 2;
+    public int bullets;
+
+    public Lmg(int bullets) {
+        this.bullets = bullets;
+    }
 
     //Objects
     Random rand_aw = new Random();
