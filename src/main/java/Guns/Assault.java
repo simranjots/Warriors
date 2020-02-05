@@ -5,9 +5,9 @@ import java.util.Random;
 public class Assault extends Weapon {
 
     static int damage = 20;
-    int dam ;
     static int fire_rate = 3;
     public int bullets;
+    int dam ;
 
     public Assault(int bullets) {
         this.bullets = bullets;

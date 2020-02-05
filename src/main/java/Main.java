@@ -9,8 +9,7 @@ public class Main {
     //Other class Objects
      Random rand = new Random();
      int member;
-
-    protected static int max_team_members = 20;
+     protected static int max_team_members = 20;
 
     public static void main(String[] args) {
 
@@ -44,7 +43,7 @@ public class Main {
      for (int i = 0; i < member; i++)
      {
          //get input variables;
-         payer[i] = new Player(100, "Player "+(i+1)+a, 1,1);
+         payer[i] = new Player(100, "Player "+(i+1)+a, 1,0);
          players.add(payer[i]);
      }
      return players;

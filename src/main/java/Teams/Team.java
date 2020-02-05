@@ -183,20 +183,20 @@ public class Team {
 
       public void battleTeam(Team otherteam){
         System.out.println("Attacks");
+        int thisteam =rand.nextInt((this.member- 1) + 1) + 1;
+        int anotherteam=rand.nextInt((otherteam.member- 1) + 1) + 1;
           //My health and enemy health
-          System.out.println("Player " +this.getPlayer().get(0).get(0).getName()+ " fighting with " + otherteam.getPlayer().get(0).get(0).getName());
-          int h  = this.getPlayer().get(0).get(0).getHealth() - otherteam.getPlayer().get(0).get(0).getWeapons().get(0).fire();
+          System.out.println("Player " +this.getPlayer().get(0).get(thisteam).getName()+ " fighting with " + otherteam.getPlayer().get(0).get(anotherteam).getName());
+          int h  = this.getPlayer().get(0).get(rand.nextInt((this.member- 1) + 1) + 1).getHealth() -
+                  otherteam.getPlayer().get(0).get(0).getWeapons().get(otherteam.getPlayer().get(0).get(0).getSelected_weapon()).fire();
                 this.getPlayer().get(0).get(0).setHealth(h);
 
                 System.out.println(h);
-          /*int firearm1 =this.getPlayer().get(0).get(0).getWeapons().get(0).fire_rate();
-          int dam1=this.getPlayer().get(0).get(0).getWeapons().get(0).damage();
-          int damage1 =firearm1*dam1;
-          */int h1  = otherteam.getPlayer().get(0).get(0).getHealth() - this.getPlayer().get(0).get(0).getWeapons().get(1).fire();
+          int h1  = otherteam.getPlayer().get(0).get(anotherteam).getHealth() -
+                  this.getPlayer().get(0).get(0).getWeapons().get(otherteam.getPlayer().get(0).get(0).getSelected_weapon()).fire();
           this.getPlayer().get(0).get(0).setHealth(h1);
 
           System.out.println(h1);
-         // otherPlayer.setHealth(otherPlayer.getHealth() - this.getWeapons().get(this.getSelectedWeapon()).getDamage());
 
       }//battleTeam Ends
 

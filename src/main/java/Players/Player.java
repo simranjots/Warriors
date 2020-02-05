@@ -14,6 +14,7 @@ public class Player {
     public int selected_weapon;
 
 
+
     // Constructor
     public Player(int health, String name, int rank, int selected_weapon) {
         this.health = health;
@@ -56,8 +57,7 @@ public class Player {
     public void setRank(int rank) {
         this.rank = rank;
     }
-
-    public int getSelected_weapon(int i) {
+    public int getSelected_weapon() {
         return selected_weapon;
     }
 
