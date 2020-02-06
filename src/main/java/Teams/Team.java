@@ -224,10 +224,7 @@ public class Team {
 
                 if (this.getPlayer().get(0).get(thisteam).getHealth() < 0) {
                    break ;
-                } else {
-                    continue;
                 }
-
             }//second while
 
             if (this.getPlayer().get(0).get(thisteam).getHealth() < 0) {

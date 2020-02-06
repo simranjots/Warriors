@@ -15,15 +15,15 @@ public class Main {
 
         Main main = new Main();
         String a="A",b="B",c="C",d="D",e="E";
-        Team  A = new Team ("Black","Team A",main.createPlayer(a),main.member);
+        Team  A = new Team ("Black","Team A",main.createPlayer(a),member);
         A.addPlayerToTeam(A);
-        Team  B = new Team ("Blue","Team B",main.createPlayer(b),main.member);
+        Team  B = new Team ("Blue","Team B",main.createPlayer(b),member);
        B.addPlayerToTeam(B);
-        Team  C = new Team ("Red","Team C",main.createPlayer(c),main.member);
+        Team  C = new Team ("Red","Team C",main.createPlayer(c),member);
        //C.addPlayerToTeam(C);
-        Team  D = new Team ("Grey","Team D",main.createPlayer(d),main.member);
+        Team  D = new Team ("Grey","Team D",main.createPlayer(d),member);
        // D.addPlayerToTeam(D);
-        Team  E = new Team ("Green","Team E",main.createPlayer(e),main.member);
+        Team  E = new Team ("Green","Team E",main.createPlayer(e),member);
        // E.addPlayerToTeam(E);
 
        // A.battleTeam(B);
@@ -34,7 +34,6 @@ public class Main {
        }
        else {
            System.out.println("NO FIGHT GHAR KO JAO ");
-           System.out.println(0-1);
        }
 
 
