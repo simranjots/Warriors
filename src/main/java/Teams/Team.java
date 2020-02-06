@@ -191,8 +191,8 @@ public class Team {
         //rand.nextInt((max - min) + 1) + min;
         Game:
         while ((this.getMember() > -1) && (other_team.getMember() > -1)) {
-             Teama =(this.getMember()-1);
-             Teamb=(other_team.getMember()-1);
+             Teama =this.getMember()-1;
+             Teamb=other_team.getMember()-1;
             if (Teama < 0) {
                 Teama=0;
             }
@@ -200,8 +200,8 @@ public class Team {
                Teamb =0;
             }
 
-            thisteam = rand.nextInt(( - 0) + 1) +0;
-            anotherteam = rand.nextInt(((other_team.getMember()-1) - 0) + 1) + 0;
+            thisteam = rand.nextInt(( Teama- 0) + 1) +0;
+            anotherteam = rand.nextInt((Teamb - 0) + 1) + 0;
 
             System.out.println("Team 1 = " + thisteam);
             System.out.println("Team 2 =" + anotherteam);
