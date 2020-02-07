@@ -190,16 +190,17 @@ public class Team {
 
         //rand.nextInt((max - min) + 1) + min;
         Game:
-        while ((this.getMember() > -1) && (other_team.getMember() > -1)) {
-             Teama =this.getMember()-1;
-             Teamb=other_team.getMember()-1;
-            if (Teama < 0) {
-                Teama=0;
+        while (this.getMember() > -1 && other_team.getMember() > -1) {
+            if(this.getMember()>0) {
+                Teama = this.getMember() - 1;
+            }else {
+                break;
             }
-            if ( Teamb<0) {
-               Teamb =0;
+            if(other_team.getMember()>0) {
+                Teamb = other_team.getMember() - 1;
+            }else {
+                break;
             }
-
             thisteam = rand.nextInt(( Teama- 0) + 1) +0;
             anotherteam = rand.nextInt((Teamb - 0) + 1) + 0;
 
@@ -233,6 +234,7 @@ public class Team {
                 other_team.setWinner(true);
                 this.setMember(this.getMember() - 1);
                 System.out.println(this.getTeam_name()+" remaining member are "+this.getMember());
+                this.getPlayer().get(0).remove(thisteam);
                }
             else {
                 System.out.println("Player " + other_team.getPlayer().get(0).get(anotherteam).getName() + " Dies !!!");
@@ -240,10 +242,11 @@ public class Team {
                 this.setWinner(true);
                 other_team.setMember(other_team.getMember() - 1);
                 System.out.println(other_team.getTeam_name() + " remaining member are " + other_team.getMember());
+                other_team.getPlayer().get(0).remove(anotherteam);
             }
-            if ((this.getMember() < -1)){
+            if (this.getMember() < -1){
                break ;
-            }else if((other_team.getMember() < -1)) {
+            }else if(other_team.getMember() < -1) {
                break ;
             }else {
                 continue Game;
