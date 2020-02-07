@@ -29,8 +29,7 @@ public class Main {
        // A.battleTeam(B);
        if(A.conflict(B)==true){
 
-           A.battleTeam(B) ;
-
+           A.battleTeam(B);
        }
        else {
            System.out.println("NO FIGHT GHAR KO JAO ");

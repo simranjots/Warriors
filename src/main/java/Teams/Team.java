@@ -204,8 +204,6 @@ public class Team {
             thisteam = rand.nextInt(( Teama- 0) + 1) +0;
             anotherteam = rand.nextInt((Teamb - 0) + 1) + 0;
 
-            System.out.println("Team 1 = " + thisteam);
-            System.out.println("Team 2 =" + anotherteam);
 
             System.out.println("Player " + this.getPlayer().get(0).get(thisteam).getName() +
                     " fighting with " + other_team.getPlayer().get(0).get(anotherteam).getName());
@@ -213,15 +211,19 @@ public class Team {
             while (other_team.getPlayer().get(0).get(anotherteam).getHealth() > 0) {
                 //My health and enemy health
 
+                if(this.getPlayer().get(0).get(thisteam).getHealth() > 0) {
+                    other_team.getPlayer().get(0).get(anotherteam).setHealth(other_team.getPlayer().get(0).get(anotherteam).getHealth() -
+                            this.getPlayer().get(0).get(thisteam).getWeapons().get(this.getPlayer().get(0).get(thisteam).getSelected_weapon()).fire());
+
+                    System.out.println(other_team.getPlayer().get(0).get(anotherteam).getName() + " HP = " + other_team.getPlayer().get(0).get(anotherteam).getHealth());
+                }
                 this.getPlayer().get(0).get(thisteam).setHealth(this.getPlayer().get(0).get(thisteam).getHealth() -
                         other_team.getPlayer().get(0).get(anotherteam).getWeapons().get(other_team.getPlayer().get(0).get(anotherteam).getSelected_weapon()).fire());
 
                 System.out.println(this.getPlayer().get(0).get(thisteam).getName()+ " HP = "+this.getPlayer().get(0).get(thisteam).getHealth());
 
-                other_team.getPlayer().get(0).get(anotherteam).setHealth(other_team.getPlayer().get(0).get(anotherteam).getHealth() -
-                        this.getPlayer().get(0).get(thisteam).getWeapons().get(this.getPlayer().get(0).get(thisteam).getSelected_weapon()).fire());
 
-                System.out.println(other_team.getPlayer().get(0).get(anotherteam).getName()+ " HP = "+other_team.getPlayer().get(0).get(anotherteam).getHealth());
+
 
                 if (this.getPlayer().get(0).get(thisteam).getHealth() < 0) {
                    break ;
