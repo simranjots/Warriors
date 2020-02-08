@@ -15,14 +15,12 @@ public class Team {
     public int y_axis;
     public int radius;
     public int member;
-    boolean Lose ;
+    boolean Lose;
     boolean winner ;
     protected int score;
     protected int kills;
-    protected static int max_team_members = 20;
     //Objects
     Random rand = new Random();
-    ArrayList<Team> team_Player;
     ArrayList<ArrayList<Player>> player;
 
     // Constructor
@@ -34,19 +32,19 @@ public class Team {
         this.member =mem;
         this.radius =10* mem;
         this.Lose =false;
+        this.winner=true;
         player = new ArrayList<>();
         player.add(p);
     }
 
 
     // player function
-
-
     public ArrayList<ArrayList<Player>> getPlayer() {
         return player;
     }
 
     //Team functions
+
     public int getMember() {
         return member;
     }
@@ -54,11 +52,6 @@ public class Team {
     public void setMember(int member) {
         this.member = member;
     }
-
-    public int getMax_team_members() {
-        return max_team_members;
-    }
-
 
     public String getColor() {
         return color;
@@ -134,59 +127,32 @@ public class Team {
     public int location_x_axis(){
         x_axis =rand.nextInt((x - 1) + 1) + 1;
         return x_axis;
-
     }
     public int location_y_axis(){
         y_axis =rand.nextInt((y - 1) + 1) + 1;
         return y_axis;
     }
 
-    //Add Player to the Team
-    public void addPlayerToTeam(Team ob){
-        team_Player =new ArrayList<>();
-        team_Player.add(ob);
-        Iterator itr=team_Player.iterator();
-
-        while(itr.hasNext()){
-            Team st=(Team)itr.next();
-            System.out.println("******* TOTAL TEAM MEMBERS = " +member+ " **************");
-            System.out.println(" \tTeam Name = " + st.getTeam_name() + "\t Team Color = " + st.getColor()+"\t Radius = " +st.getRadius()
-                    +"\t "+st.getX_axis()+","+st.getY_axis()+" \tPlayers");
-            for (int i=0;i<member;i++) {
-                System.out.println("\t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t"+st.getPlayer().get(0).get(i).getName());
-            }
-        }
-    }
-    public boolean conflict(Team b){
-       double dist=Math.sqrt((b.x_axis-this.x_axis)*(b.x_axis-this.x_axis) + (b.y_axis-this.y_axis)*(b.y_axis-this.y_axis));
-       System.out.println(dist);
-       System.out.println("A = "+this.x_axis);
-        System.out.println("B = "+b.x_axis);
-        System.out.println("A = "+this.y_axis);
-        System.out.println("B = "+b.y_axis);
-       if(dist<=(this.radius+b.radius)) {
-           return true;
-       }
-       else {
-           return false;
-       }
-    }
      public void moveTeam() {
-         if (this.x_axis > 20) {
-             this.setX_axis(this.x_axis - rand.nextInt((50- 1) + 1) + 1);
+         if (this.getX_axis() > 20) {
+             this.setX_axis(this.getX_axis() - rand.nextInt((100- 1) + 1) + 1);
          } else {
-             x_axis = 0;
+            setX_axis(0);
          }
-         if (this.y_axis > 20) {
-             this.setY_axis(this.y_axis - rand.nextInt((50- 1) + 1) + 1);
+         if (this.getY_axis() > 20) {
+             this.setY_axis(this.getY_axis() - rand.nextInt((100- 1) + 1) + 1);
          } else {
-             y_axis = 0;
+             setY_axis(0);
          }
      }//moveTeam Ends
 
 
-      public boolean battleTeam(Team other_team){
+      public Team battleTeam(Team other_team){
         System.out.println("Attacks");
+        System.out.println(this.getTeam_name());
+        System.out.println(this.getMember());
+        System.out.println(other_team.getTeam_name());
+        System.out.println(other_team.getMember());
 
         //rand.nextInt((max - min) + 1) + min;
         Game:
@@ -195,36 +161,35 @@ public class Team {
                 Teama = this.getMember() - 1;
             }else {
                 break;
-            }
-            if(other_team.getMember()>0) {
+            }if(other_team.getMember()>0) {
                 Teamb = other_team.getMember() - 1;
             }else {
                 break;
             }
-            thisteam = rand.nextInt(( Teama- 0) + 1) +0;
-            anotherteam = rand.nextInt((Teamb - 0) + 1) + 0;
+               thisteam = rand.nextInt(( Teama- 0) + 1) +0;
+               anotherteam = rand.nextInt((Teamb - 0) + 1) + 0;
 
 
             System.out.println("Player " + this.getPlayer().get(0).get(thisteam).getName() +
                     " fighting with " + other_team.getPlayer().get(0).get(anotherteam).getName());
 
             while (other_team.getPlayer().get(0).get(anotherteam).getHealth() > 0) {
-                //My health and enemy health
-
+                //condition and then other team health damage
                 if(this.getPlayer().get(0).get(thisteam).getHealth() > 0) {
-                    other_team.getPlayer().get(0).get(anotherteam).setHealth(other_team.getPlayer().get(0).get(anotherteam).getHealth() -
-                            this.getPlayer().get(0).get(thisteam).getWeapons().get(this.getPlayer().get(0).get(thisteam).getSelected_weapon()).fire());
+                        other_team.getPlayer().get(0).get(anotherteam).setHealth(other_team.getPlayer().get(0).get(anotherteam).getHealth() -
+                         this.getPlayer().get(0).get(thisteam).getWeapons().get(this.getPlayer().get(0).get(thisteam).getSelected_weapon()).fire());
 
-                    System.out.println(other_team.getPlayer().get(0).get(anotherteam).getName() + " HP = " + other_team.getPlayer().get(0).get(anotherteam).getHealth());
+                         System.out.println(other_team.getPlayer().get(0).get(anotherteam).getName() + " HP = "
+                            + other_team.getPlayer().get(0).get(anotherteam).getHealth());
                 }
-                this.getPlayer().get(0).get(thisteam).setHealth(this.getPlayer().get(0).get(thisteam).getHealth() -
-                        other_team.getPlayer().get(0).get(anotherteam).getWeapons().get(other_team.getPlayer().get(0).get(anotherteam).getSelected_weapon()).fire());
+                //this team health damage
+                  this.getPlayer().get(0).get(thisteam).setHealth(this.getPlayer().get(0).get(thisteam).getHealth() -
+                    other_team.getPlayer().get(0).get(anotherteam).getWeapons().get(other_team.getPlayer().get(0).get(anotherteam).getSelected_weapon()).fire());
 
                 System.out.println(this.getPlayer().get(0).get(thisteam).getName()+ " HP = "+this.getPlayer().get(0).get(thisteam).getHealth());
 
 
-
-
+                //condition
                 if (this.getPlayer().get(0).get(thisteam).getHealth() < 0) {
                    break ;
                 }
@@ -232,16 +197,19 @@ public class Team {
 
             if (this.getPlayer().get(0).get(thisteam).getHealth() < 0) {
                 System.out.println("Player " + this.getPlayer().get(0).get(thisteam).getName() + " Dies !!!");
-                this.setLose(true);
-                other_team.setWinner(true);
+                if(this.getRadius()>0) {
+                    this.setRadius(this.radius - 1);}
+                else {
+                    this.setRadius(0); }
                 this.setMember(this.getMember() - 1);
                 System.out.println(this.getTeam_name()+" remaining member are "+this.getMember());
                 this.getPlayer().get(0).remove(thisteam);
-               }
-            else {
+               } else {
                 System.out.println("Player " + other_team.getPlayer().get(0).get(anotherteam).getName() + " Dies !!!");
-                other_team.setLose(true);
-                this.setWinner(true);
+                if(other_team.getRadius()>0) {
+                    other_team.setRadius(other_team.radius - 1); }
+                else {
+                    other_team.setRadius(0);}
                 other_team.setMember(other_team.getMember() - 1);
                 System.out.println(other_team.getTeam_name() + " remaining member are " + other_team.getMember());
                 other_team.getPlayer().get(0).remove(anotherteam);
@@ -255,8 +223,14 @@ public class Team {
             }
 
         }//first while
-
-
-        return true;
+          if (this.getMember()==0){
+              this.setLose(true);
+              this.setWinner(false);
+              return this;
+          }else {
+              other_team.setLose(true);
+              other_team.setWinner(false);
+               return other_team;
+          }
       }//battleTeam Ends
 }
