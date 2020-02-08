@@ -17,7 +17,7 @@ public class Shotgun extends Weapon {
 
     @Override
     public int fire() {
-        System.out.println("Shooting through Shotgun");
+        System.out.println("Shooting through #########SHOTGUN##############");
         this.setBullets(this.getBullets()-1);
         dam= damage()*fire_rate();
         if(this.getBullets()<=0)

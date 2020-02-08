@@ -16,7 +16,7 @@ public class Sniper extends Weapon {
 
     @Override
     public int fire() {
-        System.out.println("Shooting through Sniper");
+        System.out.println("Shooting through @@@@@@@@@@@@@@@Sniper");
         this.setBullets(this.getBullets()-1);
         if(this.getBullets()<=0)
         {

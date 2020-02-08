@@ -1,7 +1,8 @@
+
 package Teams;
+import Guns.NoMoreWeaponException;
 import Players.Player;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.Random;
 
 public class Team {
@@ -9,16 +10,14 @@ public class Team {
     static  int Teama,Teamb;
     public String color;
     public String team_name;
-    protected static int x = 500;
-    protected static int y = 500;
+    protected static int x = 1000;
+    protected static int y = 1000;
     public int x_axis;
     public int y_axis;
     public int radius;
     public int member;
     boolean Lose;
     boolean winner ;
-    protected int score;
-    protected int kills;
     //Objects
     Random rand = new Random();
     ArrayList<ArrayList<Player>> player;
@@ -85,22 +84,6 @@ public class Team {
         this.winner = winner;
     }
 
-    public int getScore() {
-        return score;
-    }
-
-    public void setScore(int score) {
-        this.score = score;
-    }
-
-    public int getKills() {
-        return kills;
-    }
-
-    public void setKills(int kills) {
-        this.kills = kills;
-    }
-
     public int getRadius() {
         return radius;
     }
@@ -135,19 +118,19 @@ public class Team {
 
      public void moveTeam() {
          if (this.getX_axis() > 20) {
-             this.setX_axis(this.getX_axis() - rand.nextInt((100- 1) + 1) + 1);
+             this.setX_axis(this.getX_axis() - rand.nextInt((50- 1) + 1) + 1);
          } else {
             setX_axis(0);
          }
          if (this.getY_axis() > 20) {
-             this.setY_axis(this.getY_axis() - rand.nextInt((100- 1) + 1) + 1);
+             this.setY_axis(this.getY_axis() - rand.nextInt((50- 1) + 1) + 1);
          } else {
              setY_axis(0);
          }
      }//moveTeam Ends
 
 
-      public Team battleTeam(Team other_team){
+      public Team battleTeam(Team other_team) {
         System.out.println("Attacks");
         System.out.println(this.getTeam_name());
         System.out.println(this.getMember());
@@ -172,46 +155,99 @@ public class Team {
 
             System.out.println("Player " + this.getPlayer().get(0).get(thisteam).getName() +
                     " fighting with " + other_team.getPlayer().get(0).get(anotherteam).getName());
+            if(this.getPlayer().get(0).get(thisteam).getScore()>29||other_team.getPlayer().get(0).get(anotherteam).getScore()>29){
+                if(this.getPlayer().get(0).get(thisteam).getScore()>29) {
+                    try {
 
-            while (other_team.getPlayer().get(0).get(anotherteam).getHealth() > 0) {
+                        this.getPlayer().get(0).get(thisteam).getWeapons().get(0).upgradeWeapon(this, thisteam);
+                    }catch (NoMoreWeaponException ex){
+                        ex.NoMoreWeaponException();
+                    }
+                }else {
+                    try {
+                    other_team.getPlayer().get(0).get(anotherteam).getWeapons().get(0).upgradeWeapon(other_team,anotherteam);
+                    }catch (NoMoreWeaponException ex){
+                    ex.NoMoreWeaponException();
+                }
+                }
+                }
+            //Second While
+               while (other_team.getPlayer().get(0).get(anotherteam).getHealth() > 1) {
                 //condition and then other team health damage
-                if(this.getPlayer().get(0).get(thisteam).getHealth() > 0) {
+                    if(this.getPlayer().get(0).get(thisteam).getHealth() > 1) {
+                     try {
                         other_team.getPlayer().get(0).get(anotherteam).setHealth(other_team.getPlayer().get(0).get(anotherteam).getHealth() -
                          this.getPlayer().get(0).get(thisteam).getWeapons().get(this.getPlayer().get(0).get(thisteam).getSelected_weapon()).fire());
-
-                         System.out.println(other_team.getPlayer().get(0).get(anotherteam).getName() + " HP = "
-                            + other_team.getPlayer().get(0).get(anotherteam).getHealth());
+                    }catch (NoMoreWeaponException ex){
+                       ex.NoMoreWeaponException();
+                   }
                 }
+                   System.out.println(other_team.getPlayer().get(0).get(anotherteam).getName() + " HP = "
+                           + other_team.getPlayer().get(0).get(anotherteam).getHealth());
                 //this team health damage
-                  this.getPlayer().get(0).get(thisteam).setHealth(this.getPlayer().get(0).get(thisteam).getHealth() -
-                    other_team.getPlayer().get(0).get(anotherteam).getWeapons().get(other_team.getPlayer().get(0).get(anotherteam).getSelected_weapon()).fire());
-
-                System.out.println(this.getPlayer().get(0).get(thisteam).getName()+ " HP = "+this.getPlayer().get(0).get(thisteam).getHealth());
-
-
+                   if(other_team.getPlayer().get(0).get(anotherteam).getHealth() > 1) {
+                       try {
+                       this.getPlayer().get(0).get(thisteam).setHealth(this.getPlayer().get(0).get(thisteam).getHealth() -
+                      other_team.getPlayer().get(0).get(anotherteam).getWeapons().get(other_team.getPlayer().get(0).get(anotherteam).getSelected_weapon()).fire());
+                   }catch (NoMoreWeaponException ex){
+                       ex.NoMoreWeaponException();
+                   }
+                   }
+                   System.out.println(this.getPlayer().get(0).get(thisteam).getName() + " HP = "
+                           + this.getPlayer().get(0).get(thisteam).getHealth());
                 //condition
                 if (this.getPlayer().get(0).get(thisteam).getHealth() < 0) {
                    break ;
                 }
             }//second while
 
+            //If this player Died
             if (this.getPlayer().get(0).get(thisteam).getHealth() < 0) {
-                System.out.println("Player " + this.getPlayer().get(0).get(thisteam).getName() + " Dies !!!");
-                if(this.getRadius()>0) {
-                    this.setRadius(this.radius - 1);}
-                else {
+                     System.out.println("Player " + this.getPlayer().get(0).get(thisteam).getName() + " Dies !!!");
+                  //Health 0
+                    this.getPlayer().get(0).get(thisteam).setHealth(0);
+                 //updating the radius
+                    if(this.getRadius()>0) {
+                    this.setRadius(this.radius - 1);
+                    }
+                    else {
                     this.setRadius(0); }
-                this.setMember(this.getMember() - 1);
-                System.out.println(this.getTeam_name()+" remaining member are "+this.getMember());
+                    //reducing members
+                    this.setMember(this.getMember() - 1);
+                  //setting the kills
+                   other_team.getPlayer().get(0).get(anotherteam).setKills(other_team.getPlayer().get(0).get(anotherteam).kills+1);
+                   System.out.println(other_team.getPlayer().get(0).get(anotherteam).getName()+
+                           " Killed "+other_team.getPlayer().get(0).get(anotherteam).getKills()+" opponent players");
+                //setting the score
+                if(other_team.getPlayer().get(0).get(anotherteam).getKills()>0){
+                    other_team.getPlayer().get(0).get(anotherteam).setScore(40);
+                }
+                //Showing remaining members
+                System.out.println(this.getTeam_name()+" remaining members are "+this.getMember());
                 this.getPlayer().get(0).remove(thisteam);
-               } else {
+               }
+            //If other player Died
+            else {
                 System.out.println("Player " + other_team.getPlayer().get(0).get(anotherteam).getName() + " Dies !!!");
+                //Health 0
+                other_team.getPlayer().get(0).get(anotherteam).setHealth(0);
+                //updating the radius
                 if(other_team.getRadius()>0) {
                     other_team.setRadius(other_team.radius - 1); }
                 else {
                     other_team.setRadius(0);}
+                //Reducing members
                 other_team.setMember(other_team.getMember() - 1);
-                System.out.println(other_team.getTeam_name() + " remaining member are " + other_team.getMember());
+                //setting kills
+                this.getPlayer().get(0).get(thisteam).setKills(this.getPlayer().get(0).get(thisteam).kills+1);
+                System.out.println(this.getPlayer().get(0).get(thisteam).getName()+
+                        " Killed "+this.getPlayer().get(0).get(thisteam).getKills()+" opponent players");
+                //setting the score
+                if(this.getPlayer().get(0).get(thisteam).getKills()>0){
+                    this.getPlayer().get(0).get(thisteam).setScore(40);
+                }
+                //Showing remaining members
+                System.out.println(other_team.getTeam_name() + " remaining members are " + other_team.getMember());
                 other_team.getPlayer().get(0).remove(anotherteam);
             }
             if (this.getMember() < -1){

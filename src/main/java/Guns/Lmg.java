@@ -16,7 +16,7 @@ public class Lmg extends Weapon{
 
     @Override
     public int fire() {
-        System.out.println("Shooting through LMG");
+        System.out.println("Shooting through !!!!!!LMG!!!!!!!");
         this.setBullets(this.getBullets()-1);
         if(this.getBullets()<=0)
         {

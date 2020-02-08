@@ -1,12 +1,18 @@
+import Guns.NoMoreWeaponException;
 import Players.Player;
 import Teams.Team;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Random;
 
 public class Main {
 
     //Other class Objects
+    StringBuilder result = new StringBuilder();
+    String temp = "";
      Random rand = new Random();
      ArrayList<Team> teams = new ArrayList<>();
      Team Loser;
@@ -16,15 +22,19 @@ public class Main {
      protected static int max_team_members = 20;
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         Main main = new Main();
         main.createTeam();
         main.teamDetails();
         main.teamDistance();
         System.out.println(" ");
-        main.teamNearby();
-
+        try {
+            main.teamNearby();
+        }
+        catch (NoMoreWeaponException ex){
+            ex.NoMoreWeaponException();
+        }
 
 
     }//Main Function Ends
@@ -47,7 +57,7 @@ public class Main {
     }
 
     public ArrayList<Player> createPlayer(String a){
-     member = rand.nextInt((max_team_members - 1) + 1) + 1;
+     member = rand.nextInt((max_team_members - 6) + 1) + 6;
         ArrayList<Player> players = new ArrayList<>();
      //Array of Player objects
      Player []payer = new Player[member];
@@ -60,9 +70,12 @@ public class Main {
      return players;
      }
      //calling team details
-     public void teamDetails() {
+     public void teamDetails() throws IOException {
          for(int i=0;i < teams.size();i++) {
-             System.out.println("******* TOTAL TEAM MEMBERS = " + teams.get(i).getMember() + " **************");
+            System.out.println("******* TOTAL TEAM MEMBERS = " + teams.get(i).getMember() + " **************");
+            temp = "******* TOTAL TEAM MEMBERS = " + teams.get(i).getMember() + " **************";
+            result.append(temp).append("\n");
+            writeToFile(result.toString());
              System.out.println(" \tTeam Name = " + teams.get(i).getTeam_name() + "\t Team Color = " + teams.get(i).getColor() +
                      "\t Radius = " + teams.get(i).getRadius()
                      + "\t " + teams.get(i).getX_axis() + "," + teams.get(i).getY_axis() + " \tPlayers");
@@ -82,15 +95,12 @@ public class Main {
                 distance = Math.sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
                 System.out.println("Distance between " + teams.get(i).getTeam_name()
                         + " and " + teams.get(j).getTeam_name() + " is = " + distance);
-                if(distance<=(teams.get(i).getRadius()+teams.get(j).getRadius())) {
-                    System.out.println(teams.get(i).getTeam_name() + " is nearby to " + teams.get(j).getTeam_name());
-                }
             }
         }
     }
 
     //Match the Teams
-   public void teamNearby(){
+   public void teamNearby() throws NoMoreWeaponException{
         while (teams.size() > 1) {
             l=0;
            for (l = 0; l < teams.size(); l++) {
@@ -111,6 +121,9 @@ public class Main {
            }
            System.out.println("  ");
            System.out.println("Teams Left = "+teams.size());
+            if (teams.size() > 1) {
+                System.out.println("Teams are moving and searching for the opponent Team");
+            }
             for (l = 0; l < teams.size(); l++) {
                 System.out.println(teams.get(l).getTeam_name());
             }
@@ -121,6 +134,7 @@ public class Main {
                     teams.get(m).moveTeam();
                 }
             }
+
            if (teams.size() < 0) {
 
                  break;
@@ -128,5 +142,16 @@ public class Main {
        }
        System.out.println("Winning Team is "+teams.get(0).getTeam_name());
     }
+
+
+    void writeToFile(String result) throws IOException {
+        File f = new File("Hello.text");
+         f.createNewFile();
+
+        FileWriter fw = new FileWriter(f);
+        fw.append(result);
+        fw.flush();
+    }
+
 
 }//Class Ends

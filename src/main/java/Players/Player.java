@@ -12,7 +12,8 @@ public class Player {
     public int rank;
     ArrayList<Weapon> weapons;
     public int selected_weapon;
-
+    public int score;
+    public int kills;
 
 
     // Constructor
@@ -20,6 +21,8 @@ public class Player {
         this.health = health;
         this.name = name;
         this.rank = rank;
+        this.score=0;
+        this.kills=0;
         this.selected_weapon = selected_weapon;
         weapons = new ArrayList<>();
         weapons.add(new Assault(30));
@@ -33,6 +36,25 @@ public class Player {
         return weapons;
     }
 
+    public void setWeapons(ArrayList<Weapon> weapons) {
+        this.weapons = weapons;
+    }
+
+    public int getScore() {
+        return score;
+    }
+
+    public void setScore(int score) {
+        this.score = score;
+    }
+
+    public int getKills() {
+        return kills;
+    }
+
+    public void setKills(int kills) {
+        this.kills = kills;
+    }
 
     public int getHealth() {
         return health;
@@ -57,7 +79,10 @@ public class Player {
     public void setRank(int rank) {
         this.rank = rank;
     }
-    public int getSelected_weapon() {
+    public int getSelected_weapon()throws NoMoreWeaponException {
+        if (selected_weapon>4){
+            throw new NoMoreWeaponException();
+        }
         return selected_weapon;
     }
 
