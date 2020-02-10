@@ -28,16 +28,12 @@ public class Player {
         weapons.add(new Assault(30));
         weapons.add(new Shotgun(20));
         weapons.add(new Smg(35));
-        weapons.add(new Sniper(10));
         weapons.add(new Lmg(25));
+        weapons.add(new Sniper(10));
     }
 
     public ArrayList<Weapon> getWeapons() {
         return weapons;
-    }
-
-    public void setWeapons(ArrayList<Weapon> weapons) {
-        this.weapons = weapons;
     }
 
     public int getScore() {

@@ -32,6 +32,7 @@ public abstract class Weapon {
         this.fire_rate = fire_rate;
     }
 
+    public abstract String getWeaponName();
     public abstract int fire();
     public abstract int damage();
     public abstract int fire_rate();
@@ -40,11 +41,11 @@ public abstract class Weapon {
         this.setBullets(this.MAX_NUM_BULLETS);
         return this.getBullets();
     }
-    public void upgradeWeapon(Team other_team,int this_team) throws NoMoreWeaponException{
+    public void upgradeWeapon(Team team,int this_team) throws NoMoreWeaponException{
         //updating the weapon
 
-        other_team.getPlayer().get(0).get(this_team).setSelected_weapon(other_team.getPlayer().get(0).get(this_team).getSelected_weapon() + 1);
-        other_team.getPlayer().get(0).get(this_team).setScore(other_team.getPlayer().get(0).get(this_team).getScore() - 10);
+        team.getPlayer().get(0).get(this_team).setSelected_weapon(team.getPlayer().get(0).get(this_team).getSelected_weapon() + 1);
+        team.getPlayer().get(0).get(this_team).setScore(team.getPlayer().get(0).get(this_team).getScore() - 10);
 
     }
 }

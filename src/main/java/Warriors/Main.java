@@ -1,18 +1,20 @@
+package Warriors;
+
 import Guns.NoMoreWeaponException;
 import Players.Player;
 import Teams.Team;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Random;
 
 public class Main {
 
     //Other class Objects
-    StringBuilder result = new StringBuilder();
-    String temp = "";
+
+
+     StringBuilder result = new StringBuilder();
+    private String temp = "";
      Random rand = new Random();
      ArrayList<Team> teams = new ArrayList<>();
      Team Loser;
@@ -21,33 +23,28 @@ public class Main {
      double distance;
      protected static int max_team_members = 20;
 
+    public Main() throws IOException {
+    }
 
-    public static void main(String[] args) throws IOException {
+
+    public static void main(String[] args) throws IOException, NoMoreWeaponException {
 
         Main main = new Main();
         main.createTeam();
         main.teamDetails();
         main.teamDistance();
         System.out.println(" ");
-        try {
-            main.teamNearby();
-        }
-        catch (NoMoreWeaponException ex){
-            ex.NoMoreWeaponException();
-        }
+        main.teamNearby();
 
 
-    }//Main Function Ends
 
-
-    // Constructor
-    private  Main() { }
+    }//Warriors.Main Function Ends
 
     public void print(){
         System.out.println(teams.size());
     }
 
-    public void createTeam(){
+    public void createTeam() throws IOException {
         String a="A",b="B",c="C",d="D",e="E";
         teams.add(new Team ("Black","Team A",createPlayer(a),member));
         teams.add(new Team ("Blue","Team B",createPlayer(b),member));
@@ -72,20 +69,23 @@ public class Main {
      //calling team details
      public void teamDetails() throws IOException {
          for(int i=0;i < teams.size();i++) {
-            System.out.println("******* TOTAL TEAM MEMBERS = " + teams.get(i).getMember() + " **************");
-            temp = "******* TOTAL TEAM MEMBERS = " + teams.get(i).getMember() + " **************";
-            result.append(temp).append("\n");
-            writeToFile(result.toString());
-             System.out.println(" \tTeam Name = " + teams.get(i).getTeam_name() + "\t Team Color = " + teams.get(i).getColor() +
-                     "\t Radius = " + teams.get(i).getRadius()
-                     + "\t " + teams.get(i).getX_axis() + "," + teams.get(i).getY_axis() + " \tPlayers");
+             temp = "\n \tTeam Name = " + teams.get(i).getTeam_name() + "\t Team Color = " + teams.get(i).getColor()+
+                    "\t Team Members = "+ teams.get(i).getMember()  +
+                     "\t Location = " + teams.get(i).getX_axis() + "," + teams.get(i).getY_axis()+
+                     "\t Territory Radius = " + teams.get(i).getRadius();
+             System.out.print(temp);
+             writeToFile(temp);
              for (int j = 0; j < teams.get(i).getMember() ; j++) {
-                 System.out.println("\t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t" + teams.get(i).getPlayer().get(0).get(j).getName());
+                 System.out.print("\n \t "+ teams.get(i).getPlayer().get(0).get(j).getName());
              }
+
          }
+
      }
-    public void teamDistance(){
-        System.out.println("Total Teams = "+teams.size());
+    public void teamDistance() throws IOException {
+        temp = " \n ";
+        System.out.print(temp);
+        writeToFile(temp);
         for(int i=0;i < teams.size();i++) {
             for (int j = i+1; j < teams.size(); j++) {
                 int x1 = teams.get(i).getX_axis();
@@ -93,16 +93,21 @@ public class Main {
                 int x2 = teams.get(j).getX_axis();
                 int y2 = teams.get(j ).getY_axis();
                 distance = Math.sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
-                System.out.println("Distance between " + teams.get(i).getTeam_name()
-                        + " and " + teams.get(j).getTeam_name() + " is = " + distance);
+                temp = "\n  \t Distance between " + teams.get(i).getTeam_name()
+                        + " and " + teams.get(j).getTeam_name() + " is = " + distance;
+                System.out.print(temp);
+                writeToFile(temp);
             }
         }
     }
 
     //Match the Teams
-   public void teamNearby() throws NoMoreWeaponException{
+   public void teamNearby() throws IOException, NoMoreWeaponException {
         while (teams.size() > 1) {
             l=0;
+            temp = " \n ";
+            System.out.print(temp);
+            writeToFile(temp);
            for (l = 0; l < teams.size(); l++) {
                for ( m = l + 1; m < teams.size(); m++) {
                    int x1 = teams.get(l).getX_axis();
@@ -111,21 +116,38 @@ public class Main {
                    int y2 = teams.get(m).getY_axis();
                    distance = Math.sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
                    if (distance <= (teams.get(l).getRadius() + teams.get(m).getRadius())) {
-                       System.out.println(teams.get(l).getTeam_name() + " is nearby to " + teams.get(m).getTeam_name());
+
+                       temp = " \n \t " +teams.get(l).getTeam_name() + " is nearby to " + teams.get(m).getTeam_name();
+                       System.out.print(temp);
+                       writeToFile(temp);
                        Loser = teams.get(l).battleTeam(teams.get(m));
-                       System.out.println("Defeated Team = "+teams.get(teams.indexOf(Loser)).getTeam_name());
+                       temp =" \n \t "+teams.get(teams.indexOf(Loser)).getTeam_name()+" got Defeated. ";
+                       System.out.print(temp);
+                       writeToFile(temp);
                        teams.remove(Loser);
                    }
 
                }
            }
-           System.out.println("  ");
-           System.out.println("Teams Left = "+teams.size());
+           temp = " ";
+           System.out.print(temp);
+           writeToFile(temp);
+           if(teams.size()>1) {
+               temp = "\n \t Remaining Teams are " + teams.size();
+               System.out.print(temp);
+               writeToFile(temp);
+           }
             if (teams.size() > 1) {
-                System.out.println("Teams are moving and searching for the opponent Team");
+                temp ="\n \t Teams are moving and searching for the other Teams";
+                System.out.print(temp);
+                writeToFile(temp);
             }
             for (l = 0; l < teams.size(); l++) {
-                System.out.println(teams.get(l).getTeam_name());
+                if(teams.size()>1) {
+                    temp = "\n \t " + teams.get(l).getTeam_name();
+                    System.out.print(temp);
+                    writeToFile(temp);
+                }
             }
 
             for (l = 0; l < teams.size(); l++) {
@@ -140,17 +162,22 @@ public class Main {
                  break;
            }
        }
-       System.out.println("Winning Team is "+teams.get(0).getTeam_name());
+        temp = "\n \n \t !!!!!!!!!!!!!!! Winning Team is "+teams.get(0).getTeam_name()+" !!!!!!!!!!!!!!!!!!!! \n";
+       System.out.println(temp);
+       writeToFile(temp);
+
     }
 
 
-    void writeToFile(String result) throws IOException {
-        File f = new File("Hello.text");
-         f.createNewFile();
+   public void writeToFile(String result) throws IOException {
+        FileWriter fw =new FileWriter("Hello.text", true);
+       PrintWriter printWriter=new PrintWriter(new BufferedWriter(fw));
 
-        FileWriter fw = new FileWriter(f);
-        fw.append(result);
-        fw.flush();
+       printWriter.append(result);
+       fw.flush();
+       printWriter.flush();
+
+
     }
 
 

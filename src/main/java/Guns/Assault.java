@@ -4,6 +4,7 @@ import java.util.Random;
 
 public class Assault extends Weapon {
 
+    String weaponName = "Assault";
     static int damage = 10;
     static int fire_rate = 3;
     public int bullets;
@@ -16,9 +17,13 @@ public class Assault extends Weapon {
     //Objects
     Random rand_aw = new Random();
 
+
+    public String getWeaponName() {
+        return weaponName;
+    }
+
     @Override
     public int fire() {
-        System.out.println("Shooting through Assault");
         this.setBullets(this.getBullets()-1);
         dam= damage()*fire_rate();
         if(this.getBullets()<=0)

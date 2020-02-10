@@ -3,6 +3,7 @@ package Guns;
 import java.util.Random;
 
 public class Sniper extends Weapon {
+    String weaponName = "Sniper";
     static int damage = 50;
     static int fire_rate = 2;
     public int bullets;
@@ -14,9 +15,12 @@ public class Sniper extends Weapon {
     //Objects
     Random rand_aw = new Random();
 
+    public String getWeaponName() {
+        return weaponName;
+    }
+
     @Override
     public int fire() {
-        System.out.println("Shooting through @@@@@@@@@@@@@@@Sniper");
         this.setBullets(this.getBullets()-1);
         if(this.getBullets()<=0)
         {
