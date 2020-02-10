@@ -5,7 +5,7 @@ import java.util.Random;
 public class Smg extends Weapon {
     String weaponName = "SMG";
 
-    static int damage = 35;
+    static int damage = 30;
     static int fire_rate = 2;
     public int bullets;
 

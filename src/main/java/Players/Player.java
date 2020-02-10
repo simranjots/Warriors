@@ -76,7 +76,7 @@ public class Player {
         this.rank = rank;
     }
     public int getSelected_weapon()throws NoMoreWeaponException {
-        if (selected_weapon>4){
+        if (selected_weapon>5){
             throw new NoMoreWeaponException();
         }
         return selected_weapon;

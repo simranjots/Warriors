@@ -117,7 +117,7 @@ public class Main {
                    distance = Math.sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
                    if (distance <= (teams.get(l).getRadius() + teams.get(m).getRadius())) {
 
-                       temp = " \n \t " +teams.get(l).getTeam_name() + " is nearby to " + teams.get(m).getTeam_name();
+                       temp = " \n \t " +teams.get(l).getTeam_name() + " is nearby to " + teams.get(m).getTeam_name()+" \n ";
                        System.out.print(temp);
                        writeToFile(temp);
                        Loser = teams.get(l).battleTeam(teams.get(m));
@@ -170,7 +170,7 @@ public class Main {
 
 
    public void writeToFile(String result) throws IOException {
-        FileWriter fw =new FileWriter("Hello.text", true);
+        FileWriter fw =new FileWriter("Hello.txt", true);
        PrintWriter printWriter=new PrintWriter(new BufferedWriter(fw));
 
        printWriter.append(result);

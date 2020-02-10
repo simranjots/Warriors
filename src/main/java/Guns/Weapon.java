@@ -45,7 +45,7 @@ public abstract class Weapon {
         //updating the weapon
 
         team.getPlayer().get(0).get(this_team).setSelected_weapon(team.getPlayer().get(0).get(this_team).getSelected_weapon() + 1);
-        team.getPlayer().get(0).get(this_team).setScore(team.getPlayer().get(0).get(this_team).getScore() - 10);
+        team.getPlayer().get(0).get(this_team).setScore(team.getPlayer().get(0).get(this_team).getScore() - 25);
 
     }
 }
