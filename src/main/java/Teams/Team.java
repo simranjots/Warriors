@@ -168,7 +168,7 @@ public class Team {
                     try {
                         this.getPlayer().get(0).get(thisteam).getWeapons().get(0).upgradeWeapon(this, thisteam);
                         temp = "\n \t "+this.getPlayer().get(0).get(thisteam).getName() +" has upgraded the Weapon to "+
-                                this.getPlayer().get(0).get(thisteam).getWeapons().get(this.getPlayer().get(0).get(thisteam).getSelected_weapon()).getWeaponName();
+                          this.getPlayer().get(0).get(thisteam).getWeapons().get(this.getPlayer().get(0).get(thisteam).getSelected_weapon()).getWeaponName();
                         System.out.print(temp);
                         main.writeToFile(temp);
                        }catch (NoMoreWeaponException ex){
@@ -176,8 +176,8 @@ public class Team {
                     }
                 }else {
                     try { other_team.getPlayer().get(0).get(anotherteam).getWeapons().get(0).upgradeWeapon(other_team,anotherteam);
-                        temp = "\n \t "+this.getPlayer().get(0).get(thisteam).getName() +" has upgraded the weapon to "+
-                                other_team.getPlayer().get(0).get(anotherteam).getWeapons().get(other_team.getPlayer().get(0).get(anotherteam).getSelected_weapon()).getWeaponName();
+                        temp = "\n \t "+other_team.getPlayer().get(0).get(anotherteam).getName() +" has upgraded the weapon to "+
+                       other_team.getPlayer().get(0).get(anotherteam).getWeapons().get(other_team.getPlayer().get(0).get(anotherteam).getSelected_weapon()).getWeaponName();
                         System.out.print(temp);
                         main.writeToFile(temp);
                     }catch (NoMoreWeaponException ex){

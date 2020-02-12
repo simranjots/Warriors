@@ -13,8 +13,7 @@ public class Main {
     //Other class Objects
 
 
-     StringBuilder result = new StringBuilder();
-    private String temp = "";
+     private String temp = "";
      Random rand = new Random();
      ArrayList<Team> teams = new ArrayList<>();
      Team Loser;
@@ -24,8 +23,9 @@ public class Main {
      protected static int max_team_members = 20;
 
     public Main() throws IOException {
-    }
+        checkFile();
 
+    }
 
     public static void main(String[] args) throws IOException, NoMoreWeaponException {
 
@@ -168,15 +168,22 @@ public class Main {
 
     }
 
+ public  void checkFile() {
 
+     boolean success = (new File("battle.txt")).exists();
+     if (success) {
+         (new File("battle.txt")).delete();
+     }
+ }
    public void writeToFile(String result) throws IOException {
-        FileWriter fw =new FileWriter("Hello.txt", true);
-       PrintWriter printWriter=new PrintWriter(new BufferedWriter(fw));
 
-       printWriter.append(result);
-       fw.flush();
-       printWriter.flush();
+           FileWriter fw = new FileWriter("battle.txt", true);
+           BufferedWriter buff = new BufferedWriter(fw);
+           PrintWriter printWriter = new PrintWriter(buff);
 
+           printWriter.append(result);
+           printWriter.flush();
+           printWriter.close();
 
     }
 

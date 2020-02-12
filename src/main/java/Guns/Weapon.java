@@ -32,7 +32,7 @@ public abstract class Weapon {
         this.fire_rate = fire_rate;
     }
 
-    public abstract String getWeaponName();
+    public abstract String getWeaponName() throws NoMoreWeaponException;
     public abstract int fire();
     public abstract int damage();
     public abstract int fire_rate();

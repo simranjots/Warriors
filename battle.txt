@@ -1,0 +1,1841 @@
+
+ 	Team Name = Team A	 Team Color = Black	 Team Members = 19	 Location = 721,553	 Territory Radius = 190
+ 	Team Name = Team B	 Team Color = Blue	 Team Members = 10	 Location = 242,859	 Territory Radius = 100
+ 	Team Name = Team C	 Team Color = Red	 Team Members = 9	 Location = 325,874	 Territory Radius = 90
+ 	Team Name = Team D	 Team Color = Grey	 Team Members = 18	 Location = 220,625	 Territory Radius = 180
+ 	Team Name = Team E	 Team Color = Green	 Team Members = 19	 Location = 828,354	 Territory Radius = 190 
+ 
+  	 Distance between Team A and Team B is = 568.3986277252964
+  	 Distance between Team A and Team C is = 509.76170903668316
+  	 Distance between Team A and Team D is = 506.1472117872428
+  	 Distance between Team A and Team E is = 225.94247055390008
+  	 Distance between Team B and Team C is = 84.34453153583817
+  	 Distance between Team B and Team D is = 235.03191272676142
+  	 Distance between Team B and Team E is = 773.5767576653269
+  	 Distance between Team C and Team D is = 270.23323259732507
+  	 Distance between Team C and Team E is = 723.4701099561751
+  	 Distance between Team D and Team E is = 665.6613252998856 
+  
+ 	 Team A is nearby to Team E 
+ 
+ 	 Team A started attacking Team E
+ 	 Team A has 19 members and Team E has 19 members 
+ 	 Player 18A fighting with Player 3E 
+ 	 Player 18A has weapon Assault and Player 3E has weapon Assault 
+ 
+ 	 Player 18A Attacking Player 3E 
+ 	 Player 3E HP is 98 
+ 	 Player 3E Attacking Player 18A
+ 	 Player 18A HP is 92 
+ 	 Player 18A Attacking Player 3E 
+ 	 Player 3E HP is 86 
+ 	 Player 3E Attacking Player 18A
+ 	 Player 18A HP is 82 
+ 	 Player 18A Attacking Player 3E 
+ 	 Player 3E HP is 64 
+ 	 Player 3E Attacking Player 18A
+ 	 Player 18A HP is 52 
+ 	 Player 18A Attacking Player 3E 
+ 	 Player 3E HP is 49 
+ 	 Player 3E Attacking Player 18A
+ 	 Player 18A HP is 32 
+ 	 Player 18A Attacking Player 3E 
+ 	 Player 3E HP is 42 
+ 	 Player 3E Attacking Player 18A
+ 	 Player 18A HP is 19 
+ 	 Player 18A Attacking Player 3E 
+ 	 Player 3E HP is 12 
+ 	 Player 3E Attacking Player 18A
+ 	 Player 18A HP is 12 
+ 	 Player 18A Attacking Player 3E 
+ 	 Player 3E HP is -18
+ 	 Player 18A HP is 12
+ 	 Player 3E Dies !!! 
+
+ 	 Player 18A Killed 1 opponent player 
+ 	 Player 18A Score is 25
+ 	 Team E remaining members are 18 
+ 
+ 	 Player 3A fighting with Player 13E 
+ 	 Player 3A has weapon Assault and Player 13E has weapon Assault 
+ 
+ 	 Player 3A Attacking Player 13E 
+ 	 Player 13E HP is 94 
+ 	 Player 13E Attacking Player 3A
+ 	 Player 3A HP is 72 
+ 	 Player 3A Attacking Player 13E 
+ 	 Player 13E HP is 90 
+ 	 Player 13E Attacking Player 3A
+ 	 Player 3A HP is 70 
+ 	 Player 3A Attacking Player 13E 
+ 	 Player 13E HP is 88 
+ 	 Player 13E Attacking Player 3A
+ 	 Player 3A HP is 55 
+ 	 Player 3A Attacking Player 13E 
+ 	 Player 13E HP is 83 
+ 	 Player 13E Attacking Player 3A
+ 	 Player 3A HP is 27 
+ 	 Player 3A Attacking Player 13E 
+ 	 Player 13E HP is 72 
+ 	 Player 13E Attacking Player 3A
+ 	 Player 3A HP is 11 
+ 	 Player 3A Attacking Player 13E 
+ 	 Player 13E HP is 56 
+ 	 Player 13E Attacking Player 3A
+ 	 Player 3A HP is 6 
+ 	 Player 3A Attacking Player 13E 
+ 	 Player 13E HP is 30 
+ 	 Player 13E Attacking Player 3A
+ 	 Player 3A HP is -20
+ 
+ 	 Player 3A Dies !!! 
+
+ 	 Player 13E Killed 1 opponent player 
+ 	 Player 13E Score is 25
+ 	 Team A remaining members are 18 
+ 
+ 	 Player 16A fighting with Player 5E 
+ 	 Player 16A has weapon Assault and Player 5E has weapon Assault 
+ 
+ 	 Player 16A Attacking Player 5E 
+ 	 Player 5E HP is 85 
+ 	 Player 5E Attacking Player 16A
+ 	 Player 16A HP is 78 
+ 	 Player 16A Attacking Player 5E 
+ 	 Player 5E HP is 79 
+ 	 Player 5E Attacking Player 16A
+ 	 Player 16A HP is 77 
+ 	 Player 16A Attacking Player 5E 
+ 	 Player 5E HP is 71 
+ 	 Player 5E Attacking Player 16A
+ 	 Player 16A HP is 63 
+ 	 Player 16A Attacking Player 5E 
+ 	 Player 5E HP is 59 
+ 	 Player 5E Attacking Player 16A
+ 	 Player 16A HP is 61 
+ 	 Player 16A Attacking Player 5E 
+ 	 Player 5E HP is 54 
+ 	 Player 5E Attacking Player 16A
+ 	 Player 16A HP is 49 
+ 	 Player 16A Attacking Player 5E 
+ 	 Player 5E HP is 45 
+ 	 Player 5E Attacking Player 16A
+ 	 Player 16A HP is 45 
+ 	 Player 16A Attacking Player 5E 
+ 	 Player 5E HP is 43 
+ 	 Player 5E Attacking Player 16A
+ 	 Player 16A HP is 31 
+ 	 Player 16A Attacking Player 5E 
+ 	 Player 5E HP is 29 
+ 	 Player 5E Attacking Player 16A
+ 	 Player 16A HP is 19 
+ 	 Player 16A Attacking Player 5E 
+ 	 Player 5E HP is 15 
+ 	 Player 5E Attacking Player 16A
+ 	 Player 16A HP is 11 
+ 	 Player 16A Attacking Player 5E 
+ 	 Player 5E HP is 12 
+ 	 Player 5E Attacking Player 16A
+ 	 Player 16A HP is -3
+ 
+ 	 Player 16A Dies !!! 
+
+ 	 Player 5E Killed 1 opponent player 
+ 	 Player 5E Score is 25
+ 	 Team A remaining members are 17 
+ 
+ 	 Player 1A fighting with Player 1E 
+ 	 Player 1A has weapon Assault and Player 1E has weapon Assault 
+ 
+ 	 Player 1A Attacking Player 1E 
+ 	 Player 1E HP is 76 
+ 	 Player 1E Attacking Player 1A
+ 	 Player 1A HP is 90 
+ 	 Player 1A Attacking Player 1E 
+ 	 Player 1E HP is 68 
+ 	 Player 1E Attacking Player 1A
+ 	 Player 1A HP is 82 
+ 	 Player 1A Attacking Player 1E 
+ 	 Player 1E HP is 66 
+ 	 Player 1E Attacking Player 1A
+ 	 Player 1A HP is 76 
+ 	 Player 1A Attacking Player 1E 
+ 	 Player 1E HP is 59 
+ 	 Player 1E Attacking Player 1A
+ 	 Player 1A HP is 58 
+ 	 Player 1A Attacking Player 1E 
+ 	 Player 1E HP is 43 
+ 	 Player 1E Attacking Player 1A
+ 	 Player 1A HP is 46 
+ 	 Player 1A Attacking Player 1E 
+ 	 Player 1E HP is 29 
+ 	 Player 1E Attacking Player 1A
+ 	 Player 1A HP is 43 
+ 	 Player 1A Attacking Player 1E 
+ 	 Player 1E HP is 21 
+ 	 Player 1E Attacking Player 1A
+ 	 Player 1A HP is 41 
+ 	 Player 1A Attacking Player 1E 
+ 	 Player 1E HP is 15 
+ 	 Player 1E Attacking Player 1A
+ 	 Player 1A HP is 38 
+ 	 Player 1A Attacking Player 1E 
+ 	 Player 1E HP is 3 
+ 	 Player 1E Attacking Player 1A
+ 	 Player 1A HP is 24 
+ 	 Player 1A Attacking Player 1E 
+ 	 Player 1E HP is -11
+ 	 Player 1A HP is 24
+ 	 Player 1E Dies !!! 
+
+ 	 Player 1A Killed 1 opponent player 
+ 	 Player 1A Score is 25
+ 	 Team E remaining members are 17 
+ 
+ 	 Player 4A fighting with Player 5E 
+ 	 Player 4A has weapon Assault and Player 5E has weapon Assault 
+ 
+ 	 Player 4A Attacking Player 5E 
+ 	 Player 5E HP is -1
+ 	 Player 4A HP is 100
+ 	 Player 5E Dies !!! 
+
+ 	 Player 4A Killed 1 opponent player 
+ 	 Player 4A Score is 25
+ 	 Team E remaining members are 16 
+ 
+ 	 Player 8A fighting with Player 4E 
+ 	 Player 8A has weapon Assault and Player 4E has weapon Assault 
+ 
+ 	 Player 8A Attacking Player 4E 
+ 	 Player 4E HP is 76 
+ 	 Player 4E Attacking Player 8A
+ 	 Player 8A HP is 74 
+ 	 Player 8A Attacking Player 4E 
+ 	 Player 4E HP is 64 
+ 	 Player 4E Attacking Player 8A
+ 	 Player 8A HP is 67 
+ 	 Player 8A Attacking Player 4E 
+ 	 Player 4E HP is 50 
+ 	 Player 4E Attacking Player 8A
+ 	 Player 8A HP is 37 
+ 	 Player 8A Attacking Player 4E 
+ 	 Player 4E HP is 43 
+ 	 Player 4E Attacking Player 8A
+ 	 Player 8A HP is 23 
+ 	 Player 8A Attacking Player 4E 
+ 	 Player 4E HP is 38 
+ 	 Player 4E Attacking Player 8A
+ 	 Player 8A HP is 20 
+ 	 Player 8A Attacking Player 4E 
+ 	 Player 4E HP is 31 
+ 	 Player 4E Attacking Player 8A
+ 	 Player 8A HP is 18 
+ 	 Player 8A Attacking Player 4E 
+ 	 Player 4E HP is 19 
+ 	 Player 4E Attacking Player 8A
+ 	 Player 8A HP is 4 
+ 	 Player 8A Attacking Player 4E 
+ 	 Player 4E HP is 13 
+ 	 Player 4E Attacking Player 8A
+ 	 Player 8A HP is -8
+ 
+ 	 Player 8A Dies !!! 
+
+ 	 Player 4E Killed 1 opponent player 
+ 	 Player 4E Score is 25
+ 	 Team A remaining members are 16 
+ 
+ 	 Player 14A fighting with Player 4E 
+ 	 Player 14A has weapon Assault and Player 4E has weapon Assault 
+ 
+ 	 Player 14A Attacking Player 4E 
+ 	 Player 4E HP is 5 
+ 	 Player 4E Attacking Player 14A
+ 	 Player 14A HP is 86 
+ 	 Player 14A Attacking Player 4E 
+ 	 Player 4E HP is -8
+ 	 Player 14A HP is 86
+ 	 Player 4E Dies !!! 
+
+ 	 Player 14A Killed 1 opponent player 
+ 	 Player 14A Score is 25
+ 	 Team E remaining members are 15 
+ 
+ 	 Player 17A fighting with Player 7E 
+ 	 Player 17A has weapon Assault and Player 7E has weapon Assault 
+ 
+ 	 Player 17A Attacking Player 7E 
+ 	 Player 7E HP is 86 
+ 	 Player 7E Attacking Player 17A
+ 	 Player 17A HP is 91 
+ 	 Player 17A Attacking Player 7E 
+ 	 Player 7E HP is 85 
+ 	 Player 7E Attacking Player 17A
+ 	 Player 17A HP is 85 
+ 	 Player 17A Attacking Player 7E 
+ 	 Player 7E HP is 74 
+ 	 Player 7E Attacking Player 17A
+ 	 Player 17A HP is 74 
+ 	 Player 17A Attacking Player 7E 
+ 	 Player 7E HP is 68 
+ 	 Player 7E Attacking Player 17A
+ 	 Player 17A HP is 65 
+ 	 Player 17A Attacking Player 7E 
+ 	 Player 7E HP is 52 
+ 	 Player 7E Attacking Player 17A
+ 	 Player 17A HP is 49 
+ 	 Player 17A Attacking Player 7E 
+ 	 Player 7E HP is 48 
+ 	 Player 7E Attacking Player 17A
+ 	 Player 17A HP is 35 
+ 	 Player 17A Attacking Player 7E 
+ 	 Player 7E HP is 38 
+ 	 Player 7E Attacking Player 17A
+ 	 Player 17A HP is 29 
+ 	 Player 17A Attacking Player 7E 
+ 	 Player 7E HP is 36 
+ 	 Player 7E Attacking Player 17A
+ 	 Player 17A HP is 14 
+ 	 Player 17A Attacking Player 7E 
+ 	 Player 7E HP is 24 
+ 	 Player 7E Attacking Player 17A
+ 	 Player 17A HP is 12 
+ 	 Player 17A Attacking Player 7E 
+ 	 Player 7E HP is 13 
+ 	 Player 7E Attacking Player 17A
+ 	 Player 17A HP is -2
+ 
+ 	 Player 17A Dies !!! 
+
+ 	 Player 7E Killed 1 opponent player 
+ 	 Player 7E Score is 25
+ 	 Team A remaining members are 15 
+ 
+ 	 Player 12A fighting with Player 17E 
+ 	 Player 12A has weapon Assault and Player 17E has weapon Assault 
+ 
+ 	 Player 12A Attacking Player 17E 
+ 	 Player 17E HP is 76 
+ 	 Player 17E Attacking Player 12A
+ 	 Player 12A HP is 97 
+ 	 Player 12A Attacking Player 17E 
+ 	 Player 17E HP is 62 
+ 	 Player 17E Attacking Player 12A
+ 	 Player 12A HP is 84 
+ 	 Player 12A Attacking Player 17E 
+ 	 Player 17E HP is 52 
+ 	 Player 17E Attacking Player 12A
+ 	 Player 12A HP is 82 
+ 	 Player 12A Attacking Player 17E 
+ 	 Player 17E HP is 30 
+ 	 Player 17E Attacking Player 12A
+ 	 Player 12A HP is 73 
+ 	 Player 12A Attacking Player 17E 
+ 	 Player 17E HP is 15 
+ 	 Player 17E Attacking Player 12A
+ 	 Player 12A HP is 63 
+ 	 Player 12A Attacking Player 17E 
+ 	 Player 17E HP is 6 
+ 	 Player 17E Attacking Player 12A
+ 	 Player 12A HP is 59 
+ 	 Player 12A Attacking Player 17E 
+ 	 Player 17E HP is -4
+ 	 Player 12A HP is 59
+ 	 Player 17E Dies !!! 
+
+ 	 Player 12A Killed 1 opponent player 
+ 	 Player 12A Score is 25
+ 	 Team E remaining members are 14 
+ 
+ 	 Player 18A fighting with Player 8E 
+ 	 Player 18A has weapon Assault and Player 8E has weapon Assault 
+ 
+ 	 Player 18A Attacking Player 8E 
+ 	 Player 8E HP is 92 
+ 	 Player 8E Attacking Player 18A
+ 	 Player 18A HP is -16
+ 
+ 	 Player 18A Dies !!! 
+
+ 	 Player 8E Killed 1 opponent player 
+ 	 Player 8E Score is 25
+ 	 Team A remaining members are 14 
+ 
+ 	 Player 7A fighting with Player 7E 
+ 	 Player 7A has weapon Assault and Player 7E has weapon Assault 
+ 
+ 	 Player 7A Attacking Player 7E 
+ 	 Player 7E HP is -17
+ 	 Player 7A HP is 100
+ 	 Player 7E Dies !!! 
+
+ 	 Player 7A Killed 1 opponent player 
+ 	 Player 7A Score is 25
+ 	 Team E remaining members are 13 
+ 
+ 	 Player 4A fighting with Player 18E 
+ 	 Player 4A has weapon Assault and Player 18E has weapon Assault 
+ 
+ 	 Player 4A Attacking Player 18E 
+ 	 Player 18E HP is 85 
+ 	 Player 18E Attacking Player 4A
+ 	 Player 4A HP is 99 
+ 	 Player 4A Attacking Player 18E 
+ 	 Player 18E HP is 83 
+ 	 Player 18E Attacking Player 4A
+ 	 Player 4A HP is 95 
+ 	 Player 4A Attacking Player 18E 
+ 	 Player 18E HP is 61 
+ 	 Player 18E Attacking Player 4A
+ 	 Player 4A HP is 83 
+ 	 Player 4A Attacking Player 18E 
+ 	 Player 18E HP is 55 
+ 	 Player 18E Attacking Player 4A
+ 	 Player 4A HP is 63 
+ 	 Player 4A Attacking Player 18E 
+ 	 Player 18E HP is 48 
+ 	 Player 18E Attacking Player 4A
+ 	 Player 4A HP is 33 
+ 	 Player 4A Attacking Player 18E 
+ 	 Player 18E HP is 40 
+ 	 Player 18E Attacking Player 4A
+ 	 Player 4A HP is 26 
+ 	 Player 4A Attacking Player 18E 
+ 	 Player 18E HP is 16 
+ 	 Player 18E Attacking Player 4A
+ 	 Player 4A HP is 17 
+ 	 Player 4A Attacking Player 18E 
+ 	 Player 18E HP is 0
+ 	 Player 4A HP is 17
+ 	 Player 18E Dies !!! 
+
+ 	 Player 4A Killed 2 opponent player 
+ 	 Player 4A Score is 50
+ 	 Team E remaining members are 12 
+ 
+ 	 Player 14A fighting with Player 13E 
+ 	 Player 14A has weapon Assault and Player 13E has weapon Assault 
+ 
+ 	 Player 14A Attacking Player 13E 
+ 	 Player 13E HP is 14 
+ 	 Player 13E Attacking Player 14A
+ 	 Player 14A HP is 77 
+ 	 Player 14A Attacking Player 13E 
+ 	 Player 13E HP is 11 
+ 	 Player 13E Attacking Player 14A
+ 	 Player 14A HP is 65 
+ 	 Player 14A Attacking Player 13E 
+ 	 Player 13E HP is 0
+ 	 Player 14A HP is 65
+ 	 Player 13E Dies !!! 
+
+ 	 Player 14A Killed 2 opponent player 
+ 	 Player 14A Score is 50
+ 	 Team E remaining members are 11 
+ 
+ 	 Player 4A fighting with Player 15E
+ 	 Player 4A has upgraded the Weapon to Shotgun 
+ 	 Player 4A has weapon Shotgun and Player 15E has weapon Assault 
+ 
+ 	 Player 4A Attacking Player 15E 
+ 	 Player 15E HP is 92 
+ 	 Player 15E Attacking Player 4A
+ 	 Player 4A HP is 12 
+ 	 Player 4A Attacking Player 15E 
+ 	 Player 15E HP is 72 
+ 	 Player 15E Attacking Player 4A
+ 	 Player 4A HP is -10
+ 
+ 	 Player 4A Dies !!! 
+
+ 	 Player 15E Killed 1 opponent player 
+ 	 Player 15E Score is 25
+ 	 Team A remaining members are 13 
+ 
+ 	 Player 12A fighting with Player 14E 
+ 	 Player 12A has weapon Assault and Player 14E has weapon Assault 
+ 
+ 	 Player 12A Attacking Player 14E 
+ 	 Player 14E HP is 74 
+ 	 Player 14E Attacking Player 12A
+ 	 Player 12A HP is 31 
+ 	 Player 12A Attacking Player 14E 
+ 	 Player 14E HP is 58 
+ 	 Player 14E Attacking Player 12A
+ 	 Player 12A HP is 20 
+ 	 Player 12A Attacking Player 14E 
+ 	 Player 14E HP is 46 
+ 	 Player 14E Attacking Player 12A
+ 	 Player 12A HP is 4 
+ 	 Player 12A Attacking Player 14E 
+ 	 Player 14E HP is 36 
+ 	 Player 14E Attacking Player 12A
+ 	 Player 12A HP is -4
+ 
+ 	 Player 12A Dies !!! 
+
+ 	 Player 14E Killed 1 opponent player 
+ 	 Player 14E Score is 25
+ 	 Team A remaining members are 12 
+ 
+ 	 Player 14A fighting with Player 11E
+ 	 Player 14A has upgraded the Weapon to Shotgun 
+ 	 Player 14A has weapon Shotgun and Player 11E has weapon Assault 
+ 
+ 	 Player 14A Attacking Player 11E 
+ 	 Player 11E HP is 85 
+ 	 Player 11E Attacking Player 14A
+ 	 Player 14A HP is 47 
+ 	 Player 14A Attacking Player 11E 
+ 	 Player 11E HP is 68 
+ 	 Player 11E Attacking Player 14A
+ 	 Player 14A HP is 33 
+ 	 Player 14A Attacking Player 11E 
+ 	 Player 11E HP is 57 
+ 	 Player 11E Attacking Player 14A
+ 	 Player 14A HP is 19 
+ 	 Player 14A Attacking Player 11E 
+ 	 Player 11E HP is 47 
+ 	 Player 11E Attacking Player 14A
+ 	 Player 14A HP is 8 
+ 	 Player 14A Attacking Player 11E 
+ 	 Player 11E HP is 44 
+ 	 Player 11E Attacking Player 14A
+ 	 Player 14A HP is 6 
+ 	 Player 14A Attacking Player 11E 
+ 	 Player 11E HP is -2
+ 	 Player 14A HP is 6
+ 	 Player 11E Dies !!! 
+
+ 	 Player 14A Killed 3 opponent player 
+ 	 Player 14A Score is 75
+ 	 Team E remaining members are 10 
+ 
+ 	 Player 6A fighting with Player 12E 
+ 	 Player 6A has weapon Assault and Player 12E has weapon Assault 
+ 
+ 	 Player 6A Attacking Player 12E 
+ 	 Player 12E HP is 91 
+ 	 Player 12E Attacking Player 6A
+ 	 Player 6A HP is 94 
+ 	 Player 6A Attacking Player 12E 
+ 	 Player 12E HP is 63 
+ 	 Player 12E Attacking Player 6A
+ 	 Player 6A HP is 64 
+ 	 Player 6A Attacking Player 12E 
+ 	 Player 12E HP is 55 
+ 	 Player 12E Attacking Player 6A
+ 	 Player 6A HP is 56 
+ 	 Player 6A Attacking Player 12E 
+ 	 Player 12E HP is 46 
+ 	 Player 12E Attacking Player 6A
+ 	 Player 6A HP is 52 
+ 	 Player 6A Attacking Player 12E 
+ 	 Player 12E HP is 40 
+ 	 Player 12E Attacking Player 6A
+ 	 Player 6A HP is 46 
+ 	 Player 6A Attacking Player 12E 
+ 	 Player 12E HP is 30 
+ 	 Player 12E Attacking Player 6A
+ 	 Player 6A HP is 44 
+ 	 Player 6A Attacking Player 12E 
+ 	 Player 12E HP is 26 
+ 	 Player 12E Attacking Player 6A
+ 	 Player 6A HP is 42 
+ 	 Player 6A Attacking Player 12E 
+ 	 Player 12E HP is 12 
+ 	 Player 12E Attacking Player 6A
+ 	 Player 6A HP is 37 
+ 	 Player 6A Attacking Player 12E 
+ 	 Player 12E HP is -14
+ 	 Player 6A HP is 37
+ 	 Player 12E Dies !!! 
+
+ 	 Player 6A Killed 1 opponent player 
+ 	 Player 6A Score is 25
+ 	 Team E remaining members are 9 
+ 
+ 	 Player 6A fighting with Player 14E 
+ 	 Player 6A has weapon Assault and Player 14E has weapon Assault 
+ 
+ 	 Player 6A Attacking Player 14E 
+ 	 Player 14E HP is 29 
+ 	 Player 14E Attacking Player 6A
+ 	 Player 6A HP is 33 
+ 	 Player 6A Attacking Player 14E 
+ 	 Player 14E HP is 17 
+ 	 Player 14E Attacking Player 6A
+ 	 Player 6A HP is 19 
+ 	 Player 6A Attacking Player 14E 
+ 	 Player 14E HP is 1
+ 	 Player 6A HP is 19
+ 	 Player 14E Dies !!! 
+
+ 	 Player 6A Killed 2 opponent player 
+ 	 Player 6A Score is 50
+ 	 Team E remaining members are 8 
+ 
+ 	 Player 7A fighting with Player 2E 
+ 	 Player 7A has weapon Assault and Player 2E has weapon Assault 
+ 
+ 	 Player 7A Attacking Player 2E 
+ 	 Player 2E HP is 89 
+ 	 Player 2E Attacking Player 7A
+ 	 Player 7A HP is 85 
+ 	 Player 7A Attacking Player 2E 
+ 	 Player 2E HP is 77 
+ 	 Player 2E Attacking Player 7A
+ 	 Player 7A HP is 81 
+ 	 Player 7A Attacking Player 2E 
+ 	 Player 2E HP is 59 
+ 	 Player 2E Attacking Player 7A
+ 	 Player 7A HP is 77 
+ 	 Player 7A Attacking Player 2E 
+ 	 Player 2E HP is 45 
+ 	 Player 2E Attacking Player 7A
+ 	 Player 7A HP is 62 
+ 	 Player 7A Attacking Player 2E 
+ 	 Player 2E HP is 42 
+ 	 Player 2E Attacking Player 7A
+ 	 Player 7A HP is 58 
+ 	 Player 7A Attacking Player 2E 
+ 	 Player 2E HP is 40 
+ 	 Player 2E Attacking Player 7A
+ 	 Player 7A HP is 32 
+ 	 Player 7A Attacking Player 2E 
+ 	 Player 2E HP is 38 
+ 	 Player 2E Attacking Player 7A
+ 	 Player 7A HP is 28 
+ 	 Player 7A Attacking Player 2E 
+ 	 Player 2E HP is 29 
+ 	 Player 2E Attacking Player 7A
+ 	 Player 7A HP is 22 
+ 	 Player 7A Attacking Player 2E 
+ 	 Player 2E HP is 3 
+ 	 Player 2E Attacking Player 7A
+ 	 Player 7A HP is 21 
+ 	 Player 7A Attacking Player 2E 
+ 	 Player 2E HP is -1
+ 	 Player 7A HP is 21
+ 	 Player 2E Dies !!! 
+
+ 	 Player 7A Killed 2 opponent player 
+ 	 Player 7A Score is 50
+ 	 Team E remaining members are 7 
+ 
+ 	 Player 0A fighting with Player 8E 
+ 	 Player 0A has weapon Assault and Player 8E has weapon Assault 
+ 
+ 	 Player 0A Attacking Player 8E 
+ 	 Player 8E HP is 91 
+ 	 Player 8E Attacking Player 0A
+ 	 Player 0A HP is 86 
+ 	 Player 0A Attacking Player 8E 
+ 	 Player 8E HP is 82 
+ 	 Player 8E Attacking Player 0A
+ 	 Player 0A HP is 71 
+ 	 Player 0A Attacking Player 8E 
+ 	 Player 8E HP is 52 
+ 	 Player 8E Attacking Player 0A
+ 	 Player 0A HP is 69 
+ 	 Player 0A Attacking Player 8E 
+ 	 Player 8E HP is 38 
+ 	 Player 8E Attacking Player 0A
+ 	 Player 0A HP is 61 
+ 	 Player 0A Attacking Player 8E 
+ 	 Player 8E HP is 20 
+ 	 Player 8E Attacking Player 0A
+ 	 Player 0A HP is 45 
+ 	 Player 0A Attacking Player 8E 
+ 	 Player 8E HP is 16 
+ 	 Player 8E Attacking Player 0A
+ 	 Player 0A HP is 39 
+ 	 Player 0A Attacking Player 8E 
+ 	 Player 8E HP is 10 
+ 	 Player 8E Attacking Player 0A
+ 	 Player 0A HP is 11 
+ 	 Player 0A Attacking Player 8E 
+ 	 Player 8E HP is -5
+ 	 Player 0A HP is 11
+ 	 Player 8E Dies !!! 
+
+ 	 Player 0A Killed 1 opponent player 
+ 	 Player 0A Score is 25
+ 	 Team E remaining members are 6 
+ 
+ 	 Player 11A fighting with Player 9E 
+ 	 Player 11A has weapon Assault and Player 9E has weapon Assault 
+ 
+ 	 Player 11A Attacking Player 9E 
+ 	 Player 9E HP is 87 
+ 	 Player 9E Attacking Player 11A
+ 	 Player 11A HP is 95 
+ 	 Player 11A Attacking Player 9E 
+ 	 Player 9E HP is 82 
+ 	 Player 9E Attacking Player 11A
+ 	 Player 11A HP is 93 
+ 	 Player 11A Attacking Player 9E 
+ 	 Player 9E HP is 56 
+ 	 Player 9E Attacking Player 11A
+ 	 Player 11A HP is 67 
+ 	 Player 11A Attacking Player 9E 
+ 	 Player 9E HP is 32 
+ 	 Player 9E Attacking Player 11A
+ 	 Player 11A HP is 53 
+ 	 Player 11A Attacking Player 9E 
+ 	 Player 9E HP is 14 
+ 	 Player 9E Attacking Player 11A
+ 	 Player 11A HP is 29 
+ 	 Player 11A Attacking Player 9E 
+ 	 Player 9E HP is 6 
+ 	 Player 9E Attacking Player 11A
+ 	 Player 11A HP is 23 
+ 	 Player 11A Attacking Player 9E 
+ 	 Player 9E HP is -6
+ 	 Player 11A HP is 23
+ 	 Player 9E Dies !!! 
+
+ 	 Player 11A Killed 1 opponent player 
+ 	 Player 11A Score is 25
+ 	 Team E remaining members are 5 
+ 
+ 	 Player 6A fighting with Player 6E
+ 	 Player 6A has upgraded the Weapon to Shotgun 
+ 	 Player 6A has weapon Shotgun and Player 6E has weapon Assault 
+ 
+ 	 Player 6A Attacking Player 6E 
+ 	 Player 6E HP is 92 
+ 	 Player 6E Attacking Player 6A
+ 	 Player 6A HP is 11 
+ 	 Player 6A Attacking Player 6E 
+ 	 Player 6E HP is 67 
+ 	 Player 6E Attacking Player 6A
+ 	 Player 6A HP is 8 
+ 	 Player 6A Attacking Player 6E 
+ 	 Player 6E HP is 59 
+ 	 Player 6E Attacking Player 6A
+ 	 Player 6A HP is -8
+ 
+ 	 Player 6A Dies !!! 
+
+ 	 Player 6E Killed 1 opponent player 
+ 	 Player 6E Score is 25
+ 	 Team A remaining members are 11 
+ 
+ 	 Player 0A fighting with Player 6E 
+ 	 Player 0A has weapon Assault and Player 6E has weapon Assault 
+ 
+ 	 Player 0A Attacking Player 6E 
+ 	 Player 6E HP is 45 
+ 	 Player 6E Attacking Player 0A
+ 	 Player 0A HP is 7 
+ 	 Player 0A Attacking Player 6E 
+ 	 Player 6E HP is 41 
+ 	 Player 6E Attacking Player 0A
+ 	 Player 0A HP is 5 
+ 	 Player 0A Attacking Player 6E 
+ 	 Player 6E HP is 31 
+ 	 Player 6E Attacking Player 0A
+ 	 Player 0A HP is -11
+ 
+ 	 Player 0A Dies !!! 
+
+ 	 Player 6E Killed 2 opponent player 
+ 	 Player 6E Score is 50
+ 	 Team A remaining members are 10 
+ 
+ 	 Player 14A fighting with Player 0E
+ 	 Player 14A has upgraded the Weapon to SMG 
+ 	 Player 14A has weapon SMG and Player 0E has weapon Assault 
+ 
+ 	 Player 14A Attacking Player 0E 
+ 	 Player 0E HP is 70 
+ 	 Player 0E Attacking Player 14A
+ 	 Player 14A HP is -12
+ 
+ 	 Player 14A Dies !!! 
+
+ 	 Player 0E Killed 1 opponent player 
+ 	 Player 0E Score is 25
+ 	 Team A remaining members are 9 
+ 
+ 	 Player 9A fighting with Player 10E 
+ 	 Player 9A has weapon Assault and Player 10E has weapon Assault 
+ 
+ 	 Player 9A Attacking Player 10E 
+ 	 Player 10E HP is 98 
+ 	 Player 10E Attacking Player 9A
+ 	 Player 9A HP is 99 
+ 	 Player 9A Attacking Player 10E 
+ 	 Player 10E HP is 84 
+ 	 Player 10E Attacking Player 9A
+ 	 Player 9A HP is 98 
+ 	 Player 9A Attacking Player 10E 
+ 	 Player 10E HP is 71 
+ 	 Player 10E Attacking Player 9A
+ 	 Player 9A HP is 94 
+ 	 Player 9A Attacking Player 10E 
+ 	 Player 10E HP is 63 
+ 	 Player 10E Attacking Player 9A
+ 	 Player 9A HP is 92 
+ 	 Player 9A Attacking Player 10E 
+ 	 Player 10E HP is 54 
+ 	 Player 10E Attacking Player 9A
+ 	 Player 9A HP is 81 
+ 	 Player 9A Attacking Player 10E 
+ 	 Player 10E HP is 52 
+ 	 Player 10E Attacking Player 9A
+ 	 Player 9A HP is 59 
+ 	 Player 9A Attacking Player 10E 
+ 	 Player 10E HP is 41 
+ 	 Player 10E Attacking Player 9A
+ 	 Player 9A HP is 54 
+ 	 Player 9A Attacking Player 10E 
+ 	 Player 10E HP is 35 
+ 	 Player 10E Attacking Player 9A
+ 	 Player 9A HP is 38 
+ 	 Player 9A Attacking Player 10E 
+ 	 Player 10E HP is 34 
+ 	 Player 10E Attacking Player 9A
+ 	 Player 9A HP is 29 
+ 	 Player 9A Attacking Player 10E 
+ 	 Player 10E HP is 31 
+ 	 Player 10E Attacking Player 9A
+ 	 Player 9A HP is 11 
+ 	 Player 9A Attacking Player 10E 
+ 	 Player 10E HP is 9 
+ 	 Player 10E Attacking Player 9A
+ 	 Player 9A HP is -4
+ 
+ 	 Player 9A Dies !!! 
+
+ 	 Player 10E Killed 1 opponent player 
+ 	 Player 10E Score is 25
+ 	 Team A remaining members are 8 
+ 
+ 	 Player 7A fighting with Player 6E
+ 	 Player 7A has upgraded the Weapon to Shotgun 
+ 	 Player 7A has weapon Shotgun and Player 6E has weapon Assault 
+ 
+ 	 Player 7A Attacking Player 6E 
+ 	 Player 6E HP is -5
+ 	 Player 7A HP is 21
+ 	 Player 6E Dies !!! 
+
+ 	 Player 7A Killed 3 opponent player 
+ 	 Player 7A Score is 75
+ 	 Team E remaining members are 4 
+ 
+ 	 Player 15A fighting with Player 16E 
+ 	 Player 15A has weapon Assault and Player 16E has weapon Assault 
+ 
+ 	 Player 15A Attacking Player 16E 
+ 	 Player 16E HP is 72 
+ 	 Player 16E Attacking Player 15A
+ 	 Player 15A HP is 89 
+ 	 Player 15A Attacking Player 16E 
+ 	 Player 16E HP is 66 
+ 	 Player 16E Attacking Player 15A
+ 	 Player 15A HP is 87 
+ 	 Player 15A Attacking Player 16E 
+ 	 Player 16E HP is 44 
+ 	 Player 16E Attacking Player 15A
+ 	 Player 15A HP is 59 
+ 	 Player 15A Attacking Player 16E 
+ 	 Player 16E HP is 43 
+ 	 Player 16E Attacking Player 15A
+ 	 Player 15A HP is 39 
+ 	 Player 15A Attacking Player 16E 
+ 	 Player 16E HP is 41 
+ 	 Player 16E Attacking Player 15A
+ 	 Player 15A HP is 27 
+ 	 Player 15A Attacking Player 16E 
+ 	 Player 16E HP is 23 
+ 	 Player 16E Attacking Player 15A
+ 	 Player 15A HP is 21 
+ 	 Player 15A Attacking Player 16E 
+ 	 Player 16E HP is 17 
+ 	 Player 16E Attacking Player 15A
+ 	 Player 15A HP is 3 
+ 	 Player 15A Attacking Player 16E 
+ 	 Player 16E HP is 5 
+ 	 Player 16E Attacking Player 15A
+ 	 Player 15A HP is -21
+ 
+ 	 Player 15A Dies !!! 
+
+ 	 Player 16E Killed 1 opponent player 
+ 	 Player 16E Score is 25
+ 	 Team A remaining members are 7 
+ 
+ 	 Player 2A fighting with Player 15E 
+ 	 Player 2A has weapon Assault and Player 15E has weapon Assault 
+ 
+ 	 Player 2A Attacking Player 15E 
+ 	 Player 15E HP is 50 
+ 	 Player 15E Attacking Player 2A
+ 	 Player 2A HP is 78 
+ 	 Player 2A Attacking Player 15E 
+ 	 Player 15E HP is 44 
+ 	 Player 15E Attacking Player 2A
+ 	 Player 2A HP is 71 
+ 	 Player 2A Attacking Player 15E 
+ 	 Player 15E HP is 33 
+ 	 Player 15E Attacking Player 2A
+ 	 Player 2A HP is 62 
+ 	 Player 2A Attacking Player 15E 
+ 	 Player 15E HP is 15 
+ 	 Player 15E Attacking Player 2A
+ 	 Player 2A HP is 54 
+ 	 Player 2A Attacking Player 15E 
+ 	 Player 15E HP is 1
+ 	 Player 2A HP is 54
+ 	 Player 15E Dies !!! 
+
+ 	 Player 2A Killed 1 opponent player 
+ 	 Player 2A Score is 25
+ 	 Team E remaining members are 3 
+ 
+ 	 Player 7A fighting with Player 16E
+ 	 Player 7A has upgraded the Weapon to SMG 
+ 	 Player 7A has weapon SMG and Player 16E has weapon Assault 
+ 
+ 	 Player 7A Attacking Player 16E 
+ 	 Player 16E HP is -25
+ 	 Player 7A HP is 21
+ 	 Player 16E Dies !!! 
+
+ 	 Player 7A Killed 4 opponent player 
+ 	 Player 7A Score is 800
+ 	 Team E remaining members are 2 
+ 
+ 	 Player 2A fighting with Player 10E 
+ 	 Player 2A has weapon Assault and Player 10E has weapon Assault 
+ 
+ 	 Player 2A Attacking Player 10E 
+ 	 Player 10E HP is 7 
+ 	 Player 10E Attacking Player 2A
+ 	 Player 2A HP is 38 
+ 	 Player 2A Attacking Player 10E 
+ 	 Player 10E HP is -5
+ 	 Player 2A HP is 38
+ 	 Player 10E Dies !!! 
+
+ 	 Player 2A Killed 2 opponent player 
+ 	 Player 2A Score is 50
+ 	 Team E remaining members are 1 
+ 
+ 	 Player 2A fighting with Player 0E
+ 	 Player 2A has upgraded the Weapon to Shotgun 
+ 	 Player 2A has weapon Shotgun and Player 0E has weapon Assault 
+ 
+ 	 Player 2A Attacking Player 0E 
+ 	 Player 0E HP is 64 
+ 	 Player 0E Attacking Player 2A
+ 	 Player 2A HP is 18 
+ 	 Player 2A Attacking Player 0E 
+ 	 Player 0E HP is 31 
+ 	 Player 0E Attacking Player 2A
+ 	 Player 2A HP is 6 
+ 	 Player 2A Attacking Player 0E 
+ 	 Player 0E HP is 25 
+ 	 Player 0E Attacking Player 2A
+ 	 Player 2A HP is 2 
+ 	 Player 2A Attacking Player 0E 
+ 	 Player 0E HP is -3
+ 	 Player 2A HP is 2
+ 	 Player 0E Dies !!! 
+
+ 	 Player 2A Killed 3 opponent player 
+ 	 Player 2A Score is 75
+ 	 Team E remaining members are 0 
+ 
+ 	 Team E got Defeated.  
+ 	 Team B is nearby to Team C 
+ 
+ 	 Team B started attacking Team C
+ 	 Team B has 10 members and Team C has 9 members 
+ 	 Player 3B fighting with Player 0C 
+ 	 Player 3B has weapon Assault and Player 0C has weapon Assault 
+ 
+ 	 Player 3B Attacking Player 0C 
+ 	 Player 0C HP is 96 
+ 	 Player 0C Attacking Player 3B
+ 	 Player 3B HP is 96 
+ 	 Player 3B Attacking Player 0C 
+ 	 Player 0C HP is 92 
+ 	 Player 0C Attacking Player 3B
+ 	 Player 3B HP is 82 
+ 	 Player 3B Attacking Player 0C 
+ 	 Player 0C HP is 84 
+ 	 Player 0C Attacking Player 3B
+ 	 Player 3B HP is 52 
+ 	 Player 3B Attacking Player 0C 
+ 	 Player 0C HP is 71 
+ 	 Player 0C Attacking Player 3B
+ 	 Player 3B HP is 32 
+ 	 Player 3B Attacking Player 0C 
+ 	 Player 0C HP is 51 
+ 	 Player 0C Attacking Player 3B
+ 	 Player 3B HP is 22 
+ 	 Player 3B Attacking Player 0C 
+ 	 Player 0C HP is 49 
+ 	 Player 0C Attacking Player 3B
+ 	 Player 3B HP is 6 
+ 	 Player 3B Attacking Player 0C 
+ 	 Player 0C HP is 36 
+ 	 Player 0C Attacking Player 3B
+ 	 Player 3B HP is -7
+ 
+ 	 Player 3B Dies !!! 
+
+ 	 Player 0C Killed 1 opponent player 
+ 	 Player 0C Score is 25
+ 	 Team B remaining members are 9 
+ 
+ 	 Player 2B fighting with Player 6C 
+ 	 Player 2B has weapon Assault and Player 6C has weapon Assault 
+ 
+ 	 Player 2B Attacking Player 6C 
+ 	 Player 6C HP is 86 
+ 	 Player 6C Attacking Player 2B
+ 	 Player 2B HP is 80 
+ 	 Player 2B Attacking Player 6C 
+ 	 Player 6C HP is 60 
+ 	 Player 6C Attacking Player 2B
+ 	 Player 2B HP is 54 
+ 	 Player 2B Attacking Player 6C 
+ 	 Player 6C HP is 36 
+ 	 Player 6C Attacking Player 2B
+ 	 Player 2B HP is 26 
+ 	 Player 2B Attacking Player 6C 
+ 	 Player 6C HP is 31 
+ 	 Player 6C Attacking Player 2B
+ 	 Player 2B HP is -2
+ 
+ 	 Player 2B Dies !!! 
+
+ 	 Player 6C Killed 1 opponent player 
+ 	 Player 6C Score is 25
+ 	 Team B remaining members are 8 
+ 
+ 	 Player 6B fighting with Player 5C 
+ 	 Player 6B has weapon Assault and Player 5C has weapon Assault 
+ 
+ 	 Player 6B Attacking Player 5C 
+ 	 Player 5C HP is 84 
+ 	 Player 5C Attacking Player 6B
+ 	 Player 6B HP is 70 
+ 	 Player 6B Attacking Player 5C 
+ 	 Player 5C HP is 54 
+ 	 Player 5C Attacking Player 6B
+ 	 Player 6B HP is 64 
+ 	 Player 6B Attacking Player 5C 
+ 	 Player 5C HP is 51 
+ 	 Player 5C Attacking Player 6B
+ 	 Player 6B HP is 51 
+ 	 Player 6B Attacking Player 5C 
+ 	 Player 5C HP is 49 
+ 	 Player 5C Attacking Player 6B
+ 	 Player 6B HP is 37 
+ 	 Player 6B Attacking Player 5C 
+ 	 Player 5C HP is 23 
+ 	 Player 5C Attacking Player 6B
+ 	 Player 6B HP is 23 
+ 	 Player 6B Attacking Player 5C 
+ 	 Player 5C HP is 15 
+ 	 Player 5C Attacking Player 6B
+ 	 Player 6B HP is 17 
+ 	 Player 6B Attacking Player 5C 
+ 	 Player 5C HP is 9 
+ 	 Player 5C Attacking Player 6B
+ 	 Player 6B HP is 16 
+ 	 Player 6B Attacking Player 5C 
+ 	 Player 5C HP is 5 
+ 	 Player 5C Attacking Player 6B
+ 	 Player 6B HP is 2 
+ 	 Player 6B Attacking Player 5C 
+ 	 Player 5C HP is -2
+ 	 Player 6B HP is 2
+ 	 Player 5C Dies !!! 
+
+ 	 Player 6B Killed 1 opponent player 
+ 	 Player 6B Score is 25
+ 	 Team C remaining members are 8 
+ 
+ 	 Player 8B fighting with Player 2C 
+ 	 Player 8B has weapon Assault and Player 2C has weapon Assault 
+ 
+ 	 Player 8B Attacking Player 2C 
+ 	 Player 2C HP is 92 
+ 	 Player 2C Attacking Player 8B
+ 	 Player 8B HP is 85 
+ 	 Player 8B Attacking Player 2C 
+ 	 Player 2C HP is 88 
+ 	 Player 2C Attacking Player 8B
+ 	 Player 8B HP is 75 
+ 	 Player 8B Attacking Player 2C 
+ 	 Player 2C HP is 68 
+ 	 Player 2C Attacking Player 8B
+ 	 Player 8B HP is 62 
+ 	 Player 8B Attacking Player 2C 
+ 	 Player 2C HP is 66 
+ 	 Player 2C Attacking Player 8B
+ 	 Player 8B HP is 40 
+ 	 Player 8B Attacking Player 2C 
+ 	 Player 2C HP is 62 
+ 	 Player 2C Attacking Player 8B
+ 	 Player 8B HP is 30 
+ 	 Player 8B Attacking Player 2C 
+ 	 Player 2C HP is 46 
+ 	 Player 2C Attacking Player 8B
+ 	 Player 8B HP is 18 
+ 	 Player 8B Attacking Player 2C 
+ 	 Player 2C HP is 18 
+ 	 Player 2C Attacking Player 8B
+ 	 Player 8B HP is 2 
+ 	 Player 8B Attacking Player 2C 
+ 	 Player 2C HP is 2 
+ 	 Player 2C Attacking Player 8B
+ 	 Player 8B HP is -14
+ 
+ 	 Player 8B Dies !!! 
+
+ 	 Player 2C Killed 1 opponent player 
+ 	 Player 2C Score is 25
+ 	 Team B remaining members are 7 
+ 
+ 	 Player 0B fighting with Player 4C 
+ 	 Player 0B has weapon Assault and Player 4C has weapon Assault 
+ 
+ 	 Player 0B Attacking Player 4C 
+ 	 Player 4C HP is 98 
+ 	 Player 4C Attacking Player 0B
+ 	 Player 0B HP is 76 
+ 	 Player 0B Attacking Player 4C 
+ 	 Player 4C HP is 94 
+ 	 Player 4C Attacking Player 0B
+ 	 Player 0B HP is 66 
+ 	 Player 0B Attacking Player 4C 
+ 	 Player 4C HP is 70 
+ 	 Player 4C Attacking Player 0B
+ 	 Player 0B HP is 50 
+ 	 Player 0B Attacking Player 4C 
+ 	 Player 4C HP is 60 
+ 	 Player 4C Attacking Player 0B
+ 	 Player 0B HP is 45 
+ 	 Player 0B Attacking Player 4C 
+ 	 Player 4C HP is 46 
+ 	 Player 4C Attacking Player 0B
+ 	 Player 0B HP is 42 
+ 	 Player 0B Attacking Player 4C 
+ 	 Player 4C HP is 32 
+ 	 Player 4C Attacking Player 0B
+ 	 Player 0B HP is 36 
+ 	 Player 0B Attacking Player 4C 
+ 	 Player 4C HP is 4 
+ 	 Player 4C Attacking Player 0B
+ 	 Player 0B HP is 35 
+ 	 Player 0B Attacking Player 4C 
+ 	 Player 4C HP is -2
+ 	 Player 0B HP is 35
+ 	 Player 4C Dies !!! 
+
+ 	 Player 0B Killed 1 opponent player 
+ 	 Player 0B Score is 25
+ 	 Team C remaining members are 7 
+ 
+ 	 Player 4B fighting with Player 6C 
+ 	 Player 4B has weapon Assault and Player 6C has weapon Assault 
+ 
+ 	 Player 4B Attacking Player 6C 
+ 	 Player 6C HP is 9 
+ 	 Player 6C Attacking Player 4B
+ 	 Player 4B HP is 78 
+ 	 Player 4B Attacking Player 6C 
+ 	 Player 6C HP is -13
+ 	 Player 4B HP is 78
+ 	 Player 6C Dies !!! 
+
+ 	 Player 4B Killed 1 opponent player 
+ 	 Player 4B Score is 25
+ 	 Team C remaining members are 6 
+ 
+ 	 Player 9B fighting with Player 7C 
+ 	 Player 9B has weapon Assault and Player 7C has weapon Assault 
+ 
+ 	 Player 9B Attacking Player 7C 
+ 	 Player 7C HP is 89 
+ 	 Player 7C Attacking Player 9B
+ 	 Player 9B HP is 74 
+ 	 Player 9B Attacking Player 7C 
+ 	 Player 7C HP is 75 
+ 	 Player 7C Attacking Player 9B
+ 	 Player 9B HP is 61 
+ 	 Player 9B Attacking Player 7C 
+ 	 Player 7C HP is 72 
+ 	 Player 7C Attacking Player 9B
+ 	 Player 9B HP is 55 
+ 	 Player 9B Attacking Player 7C 
+ 	 Player 7C HP is 68 
+ 	 Player 7C Attacking Player 9B
+ 	 Player 9B HP is 35 
+ 	 Player 9B Attacking Player 7C 
+ 	 Player 7C HP is 56 
+ 	 Player 7C Attacking Player 9B
+ 	 Player 9B HP is 7 
+ 	 Player 9B Attacking Player 7C 
+ 	 Player 7C HP is 50 
+ 	 Player 7C Attacking Player 9B
+ 	 Player 9B HP is -17
+ 
+ 	 Player 9B Dies !!! 
+
+ 	 Player 7C Killed 1 opponent player 
+ 	 Player 7C Score is 25
+ 	 Team B remaining members are 6 
+ 
+ 	 Player 6B fighting with Player 7C 
+ 	 Player 6B has weapon Assault and Player 7C has weapon Assault 
+ 
+ 	 Player 6B Attacking Player 7C 
+ 	 Player 7C HP is 32 
+ 	 Player 7C Attacking Player 6B
+ 	 Player 6B HP is -5
+ 
+ 	 Player 6B Dies !!! 
+
+ 	 Player 7C Killed 2 opponent player 
+ 	 Player 7C Score is 50
+ 	 Team B remaining members are 5 
+ 
+ 	 Player 5B fighting with Player 7C
+ 	 Player 7C has upgraded the weapon to Shotgun 
+ 	 Player 5B has weapon Assault and Player 7C has weapon Shotgun 
+ 
+ 	 Player 5B Attacking Player 7C 
+ 	 Player 7C HP is 4 
+ 	 Player 7C Attacking Player 5B
+ 	 Player 5B HP is 58 
+ 	 Player 5B Attacking Player 7C 
+ 	 Player 7C HP is -4
+ 	 Player 5B HP is 58
+ 	 Player 7C Dies !!! 
+
+ 	 Player 5B Killed 1 opponent player 
+ 	 Player 5B Score is 25
+ 	 Team C remaining members are 5 
+ 
+ 	 Player 5B fighting with Player 1C 
+ 	 Player 5B has weapon Assault and Player 1C has weapon Assault 
+ 
+ 	 Player 5B Attacking Player 1C 
+ 	 Player 1C HP is 90 
+ 	 Player 1C Attacking Player 5B
+ 	 Player 5B HP is 50 
+ 	 Player 5B Attacking Player 1C 
+ 	 Player 1C HP is 86 
+ 	 Player 1C Attacking Player 5B
+ 	 Player 5B HP is 38 
+ 	 Player 5B Attacking Player 1C 
+ 	 Player 1C HP is 72 
+ 	 Player 1C Attacking Player 5B
+ 	 Player 5B HP is 25 
+ 	 Player 5B Attacking Player 1C 
+ 	 Player 1C HP is 62 
+ 	 Player 1C Attacking Player 5B
+ 	 Player 5B HP is 15 
+ 	 Player 5B Attacking Player 1C 
+ 	 Player 1C HP is 48 
+ 	 Player 1C Attacking Player 5B
+ 	 Player 5B HP is 2 
+ 	 Player 5B Attacking Player 1C 
+ 	 Player 1C HP is 42 
+ 	 Player 1C Attacking Player 5B
+ 	 Player 5B HP is -8
+ 
+ 	 Player 5B Dies !!! 
+
+ 	 Player 1C Killed 1 opponent player 
+ 	 Player 1C Score is 25
+ 	 Team B remaining members are 4 
+ 
+ 	 Player 7B fighting with Player 3C 
+ 	 Player 7B has weapon Assault and Player 3C has weapon Assault 
+ 
+ 	 Player 7B Attacking Player 3C 
+ 	 Player 3C HP is 74 
+ 	 Player 3C Attacking Player 7B
+ 	 Player 7B HP is 99 
+ 	 Player 7B Attacking Player 3C 
+ 	 Player 3C HP is 64 
+ 	 Player 3C Attacking Player 7B
+ 	 Player 7B HP is 91 
+ 	 Player 7B Attacking Player 3C 
+ 	 Player 3C HP is 58 
+ 	 Player 3C Attacking Player 7B
+ 	 Player 7B HP is 89 
+ 	 Player 7B Attacking Player 3C 
+ 	 Player 3C HP is 54 
+ 	 Player 3C Attacking Player 7B
+ 	 Player 7B HP is 59 
+ 	 Player 7B Attacking Player 3C 
+ 	 Player 3C HP is 38 
+ 	 Player 3C Attacking Player 7B
+ 	 Player 7B HP is 46 
+ 	 Player 7B Attacking Player 3C 
+ 	 Player 3C HP is 32 
+ 	 Player 3C Attacking Player 7B
+ 	 Player 7B HP is 26 
+ 	 Player 7B Attacking Player 3C 
+ 	 Player 3C HP is 24 
+ 	 Player 3C Attacking Player 7B
+ 	 Player 7B HP is 16 
+ 	 Player 7B Attacking Player 3C 
+ 	 Player 3C HP is 12 
+ 	 Player 3C Attacking Player 7B
+ 	 Player 7B HP is 3 
+ 	 Player 7B Attacking Player 3C 
+ 	 Player 3C HP is 4 
+ 	 Player 3C Attacking Player 7B
+ 	 Player 7B HP is -8
+ 
+ 	 Player 7B Dies !!! 
+
+ 	 Player 3C Killed 1 opponent player 
+ 	 Player 3C Score is 25
+ 	 Team B remaining members are 3 
+ 
+ 	 Player 0B fighting with Player 2C 
+ 	 Player 0B has weapon Assault and Player 2C has weapon Assault 
+ 
+ 	 Player 0B Attacking Player 2C 
+ 	 Player 2C HP is 1
+ 	 Player 0B HP is 35
+ 	 Player 2C Dies !!! 
+
+ 	 Player 0B Killed 2 opponent player 
+ 	 Player 0B Score is 50
+ 	 Team C remaining members are 4 
+ 
+ 	 Player 4B fighting with Player 0C 
+ 	 Player 4B has weapon Assault and Player 0C has weapon Assault 
+ 
+ 	 Player 4B Attacking Player 0C 
+ 	 Player 0C HP is 16 
+ 	 Player 0C Attacking Player 4B
+ 	 Player 4B HP is 66 
+ 	 Player 4B Attacking Player 0C 
+ 	 Player 0C HP is -8
+ 	 Player 4B HP is 66
+ 	 Player 0C Dies !!! 
+
+ 	 Player 4B Killed 2 opponent player 
+ 	 Player 4B Score is 50
+ 	 Team C remaining members are 3 
+ 
+ 	 Player 0B fighting with Player 1C
+ 	 Player 0B has upgraded the Weapon to Shotgun 
+ 	 Player 0B has weapon Shotgun and Player 1C has weapon Assault 
+ 
+ 	 Player 0B Attacking Player 1C 
+ 	 Player 1C HP is -8
+ 	 Player 0B HP is 35
+ 	 Player 1C Dies !!! 
+
+ 	 Player 0B Killed 3 opponent player 
+ 	 Player 0B Score is 75
+ 	 Team C remaining members are 2 
+ 
+ 	 Player 0B fighting with Player 3C
+ 	 Player 0B has upgraded the Weapon to SMG 
+ 	 Player 0B has weapon SMG and Player 3C has weapon Assault 
+ 
+ 	 Player 0B Attacking Player 3C 
+ 	 Player 3C HP is -26
+ 	 Player 0B HP is 35
+ 	 Player 3C Dies !!! 
+
+ 	 Player 0B Killed 4 opponent player 
+ 	 Player 0B Score is 800
+ 	 Team C remaining members are 1 
+ 
+ 	 Player 0B fighting with Player 8C
+ 	 Player 0B has upgraded the Weapon to LMG 
+ 	 Player 0B has weapon LMG and Player 8C has weapon Assault 
+ 
+ 	 Player 0B Attacking Player 8C 
+ 	 Player 8C HP is 70 
+ 	 Player 8C Attacking Player 0B
+ 	 Player 0B HP is 5 
+ 	 Player 0B Attacking Player 8C 
+ 	 Player 8C HP is 41 
+ 	 Player 8C Attacking Player 0B
+ 	 Player 0B HP is -23
+ 
+ 	 Player 0B Dies !!! 
+
+ 	 Player 8C Killed 1 opponent player 
+ 	 Player 8C Score is 25
+ 	 Team B remaining members are 2 
+ 
+ 	 Player 1B fighting with Player 8C 
+ 	 Player 1B has weapon Assault and Player 8C has weapon Assault 
+ 
+ 	 Player 1B Attacking Player 8C 
+ 	 Player 8C HP is 17 
+ 	 Player 8C Attacking Player 1B
+ 	 Player 1B HP is 72 
+ 	 Player 1B Attacking Player 8C 
+ 	 Player 8C HP is 3 
+ 	 Player 8C Attacking Player 1B
+ 	 Player 1B HP is 70 
+ 	 Player 1B Attacking Player 8C 
+ 	 Player 8C HP is 0
+ 	 Player 1B HP is 70
+ 	 Player 8C Dies !!! 
+
+ 	 Player 1B Killed 1 opponent player 
+ 	 Player 1B Score is 25
+ 	 Team C remaining members are 0 
+ 
+ 	 Team C got Defeated.  
+ 	 Remaining Teams are 3
+ 	 Teams are moving and searching for the other Teams
+ 	 Team A
+ 	 Team B
+ 	 Team D 
+  
+ 	 Team B is nearby to Team D 
+ 
+ 	 Team B started attacking Team D
+ 	 Team B has 2 members and Team D has 18 members 
+ 	 Player 1B fighting with Player 5D 
+ 	 Player 1B has weapon Assault and Player 5D has weapon Assault 
+ 
+ 	 Player 1B Attacking Player 5D 
+ 	 Player 5D HP is 89 
+ 	 Player 5D Attacking Player 1B
+ 	 Player 1B HP is 62 
+ 	 Player 1B Attacking Player 5D 
+ 	 Player 5D HP is 87 
+ 	 Player 5D Attacking Player 1B
+ 	 Player 1B HP is 51 
+ 	 Player 1B Attacking Player 5D 
+ 	 Player 5D HP is 81 
+ 	 Player 5D Attacking Player 1B
+ 	 Player 1B HP is 42 
+ 	 Player 1B Attacking Player 5D 
+ 	 Player 5D HP is 69 
+ 	 Player 5D Attacking Player 1B
+ 	 Player 1B HP is 34 
+ 	 Player 1B Attacking Player 5D 
+ 	 Player 5D HP is 64 
+ 	 Player 5D Attacking Player 1B
+ 	 Player 1B HP is 30 
+ 	 Player 1B Attacking Player 5D 
+ 	 Player 5D HP is 62 
+ 	 Player 5D Attacking Player 1B
+ 	 Player 1B HP is 20 
+ 	 Player 1B Attacking Player 5D 
+ 	 Player 5D HP is 42 
+ 	 Player 5D Attacking Player 1B
+ 	 Player 1B HP is 13 
+ 	 Player 1B Attacking Player 5D 
+ 	 Player 5D HP is 16 
+ 	 Player 5D Attacking Player 1B
+ 	 Player 1B HP is 6 
+ 	 Player 1B Attacking Player 5D 
+ 	 Player 5D HP is 4 
+ 	 Player 5D Attacking Player 1B
+ 	 Player 1B HP is -12
+ 
+ 	 Player 1B Dies !!! 
+
+ 	 Player 5D Killed 1 opponent player 
+ 	 Player 5D Score is 25
+ 	 Team B remaining members are 1 
+ 
+ 	 Player 4B fighting with Player 11D
+ 	 Player 4B has upgraded the Weapon to Shotgun 
+ 	 Player 4B has weapon Shotgun and Player 11D has weapon Assault 
+ 
+ 	 Player 4B Attacking Player 11D 
+ 	 Player 11D HP is 64 
+ 	 Player 11D Attacking Player 4B
+ 	 Player 4B HP is 64 
+ 	 Player 4B Attacking Player 11D 
+ 	 Player 11D HP is 39 
+ 	 Player 11D Attacking Player 4B
+ 	 Player 4B HP is 44 
+ 	 Player 4B Attacking Player 11D 
+ 	 Player 11D HP is 5 
+ 	 Player 11D Attacking Player 4B
+ 	 Player 4B HP is 34 
+ 	 Player 4B Attacking Player 11D 
+ 	 Player 11D HP is -33
+ 	 Player 4B HP is 34
+ 	 Player 11D Dies !!! 
+
+ 	 Player 4B Killed 3 opponent player 
+ 	 Player 4B Score is 75
+ 	 Team D remaining members are 17 
+ 
+ 	 Player 4B fighting with Player 10D
+ 	 Player 4B has upgraded the Weapon to SMG 
+ 	 Player 4B has weapon SMG and Player 10D has weapon Assault 
+ 
+ 	 Player 4B Attacking Player 10D 
+ 	 Player 10D HP is 70 
+ 	 Player 10D Attacking Player 4B
+ 	 Player 4B HP is 10 
+ 	 Player 4B Attacking Player 10D 
+ 	 Player 10D HP is 41 
+ 	 Player 10D Attacking Player 4B
+ 	 Player 4B HP is 5 
+ 	 Player 4B Attacking Player 10D 
+ 	 Player 10D HP is 13 
+ 	 Player 10D Attacking Player 4B
+ 	 Player 4B HP is -8
+ 
+ 	 Player 4B Dies !!! 
+
+ 	 Player 10D Killed 1 opponent player 
+ 	 Player 10D Score is 25
+ 	 Team B remaining members are 0 
+ 
+ 	 Team B got Defeated.  
+ 	 Remaining Teams are 2
+ 	 Teams are moving and searching for the other Teams
+ 	 Team A
+ 	 Team D 
+  
+ 	 Remaining Teams are 2
+ 	 Teams are moving and searching for the other Teams
+ 	 Team A
+ 	 Team D 
+  
+ 	 Remaining Teams are 2
+ 	 Teams are moving and searching for the other Teams
+ 	 Team A
+ 	 Team D 
+  
+ 	 Remaining Teams are 2
+ 	 Teams are moving and searching for the other Teams
+ 	 Team A
+ 	 Team D 
+  
+ 	 Remaining Teams are 2
+ 	 Teams are moving and searching for the other Teams
+ 	 Team A
+ 	 Team D 
+  
+ 	 Remaining Teams are 2
+ 	 Teams are moving and searching for the other Teams
+ 	 Team A
+ 	 Team D 
+  
+ 	 Remaining Teams are 2
+ 	 Teams are moving and searching for the other Teams
+ 	 Team A
+ 	 Team D 
+  
+ 	 Remaining Teams are 2
+ 	 Teams are moving and searching for the other Teams
+ 	 Team A
+ 	 Team D 
+  
+ 	 Remaining Teams are 2
+ 	 Teams are moving and searching for the other Teams
+ 	 Team A
+ 	 Team D 
+  
+ 	 Remaining Teams are 2
+ 	 Teams are moving and searching for the other Teams
+ 	 Team A
+ 	 Team D 
+  
+ 	 Remaining Teams are 2
+ 	 Teams are moving and searching for the other Teams
+ 	 Team A
+ 	 Team D 
+  
+ 	 Remaining Teams are 2
+ 	 Teams are moving and searching for the other Teams
+ 	 Team A
+ 	 Team D 
+  
+ 	 Remaining Teams are 2
+ 	 Teams are moving and searching for the other Teams
+ 	 Team A
+ 	 Team D 
+  
+ 	 Remaining Teams are 2
+ 	 Teams are moving and searching for the other Teams
+ 	 Team A
+ 	 Team D 
+  
+ 	 Remaining Teams are 2
+ 	 Teams are moving and searching for the other Teams
+ 	 Team A
+ 	 Team D 
+  
+ 	 Team A is nearby to Team D 
+ 
+ 	 Team A started attacking Team D
+ 	 Team A has 7 members and Team D has 17 members 
+ 	 Player 7A fighting with Player 5D
+ 	 Player 7A has upgraded the Weapon to LMG 
+ 	 Player 7A has weapon LMG and Player 5D has weapon Assault 
+ 
+ 	 Player 7A Attacking Player 5D 
+ 	 Player 5D HP is -26
+ 	 Player 7A HP is 21
+ 	 Player 5D Dies !!! 
+
+ 	 Player 7A Killed 5 opponent player 
+ 	 Player 7A Score is 1000
+ 	 Team D remaining members are 16 
+ 
+ 	 Player 7A fighting with Player 16D
+ 	 Player 7A has upgraded the Weapon to Sniper 
+ 	 Player 7A has weapon Sniper and Player 16D has weapon Assault 
+ 
+ 	 Player 7A Attacking Player 16D 
+ 	 Player 16D HP is 70 
+ 	 Player 16D Attacking Player 7A
+ 	 Player 7A HP is 5 
+ 	 Player 7A Attacking Player 16D 
+ 	 Player 16D HP is 41 
+ 	 Player 16D Attacking Player 7A
+ 	 Player 7A HP is -9
+ 
+ 	 Player 7A Dies !!! 
+
+ 	 Player 16D Killed 1 opponent player 
+ 	 Player 16D Score is 25
+ 	 Team A remaining members are 6 
+ 
+ 	 Player 5A fighting with Player 9D 
+ 	 Player 5A has weapon Assault and Player 9D has weapon Assault 
+ 
+ 	 Player 5A Attacking Player 9D 
+ 	 Player 9D HP is 88 
+ 	 Player 9D Attacking Player 5A
+ 	 Player 5A HP is 78 
+ 	 Player 5A Attacking Player 9D 
+ 	 Player 9D HP is 70 
+ 	 Player 9D Attacking Player 5A
+ 	 Player 5A HP is 69 
+ 	 Player 5A Attacking Player 9D 
+ 	 Player 9D HP is 63 
+ 	 Player 9D Attacking Player 5A
+ 	 Player 5A HP is 66 
+ 	 Player 5A Attacking Player 9D 
+ 	 Player 9D HP is 39 
+ 	 Player 9D Attacking Player 5A
+ 	 Player 5A HP is 53 
+ 	 Player 5A Attacking Player 9D 
+ 	 Player 9D HP is 15 
+ 	 Player 9D Attacking Player 5A
+ 	 Player 5A HP is 52 
+ 	 Player 5A Attacking Player 9D 
+ 	 Player 9D HP is 4 
+ 	 Player 9D Attacking Player 5A
+ 	 Player 5A HP is 40 
+ 	 Player 5A Attacking Player 9D 
+ 	 Player 9D HP is -18
+ 	 Player 5A HP is 40
+ 	 Player 9D Dies !!! 
+
+ 	 Player 5A Killed 1 opponent player 
+ 	 Player 5A Score is 25
+ 	 Team D remaining members are 15 
+ 
+ 	 Player 1A fighting with Player 15D 
+ 	 Player 1A has weapon Assault and Player 15D has weapon Assault 
+ 
+ 	 Player 1A Attacking Player 15D 
+ 	 Player 15D HP is 82 
+ 	 Player 15D Attacking Player 1A
+ 	 Player 1A HP is 6 
+ 	 Player 1A Attacking Player 15D 
+ 	 Player 15D HP is 78 
+ 	 Player 15D Attacking Player 1A
+ 	 Player 1A HP is -18
+ 
+ 	 Player 1A Dies !!! 
+
+ 	 Player 15D Killed 1 opponent player 
+ 	 Player 15D Score is 25
+ 	 Team A remaining members are 5 
+ 
+ 	 Player 11A fighting with Player 15D 
+ 	 Player 11A has weapon Assault and Player 15D has weapon Assault 
+ 
+ 	 Player 11A Attacking Player 15D 
+ 	 Player 15D HP is 65 
+ 	 Player 15D Attacking Player 11A
+ 	 Player 11A HP is -3
+ 
+ 	 Player 11A Dies !!! 
+
+ 	 Player 15D Killed 2 opponent player 
+ 	 Player 15D Score is 50
+ 	 Team A remaining members are 4 
+ 
+ 	 Player 10A fighting with Player 0D 
+ 	 Player 10A has weapon Assault and Player 0D has weapon Assault 
+ 
+ 	 Player 10A Attacking Player 0D 
+ 	 Player 0D HP is 92 
+ 	 Player 0D Attacking Player 10A
+ 	 Player 10A HP is 89 
+ 	 Player 10A Attacking Player 0D 
+ 	 Player 0D HP is 82 
+ 	 Player 0D Attacking Player 10A
+ 	 Player 10A HP is 67 
+ 	 Player 10A Attacking Player 0D 
+ 	 Player 0D HP is 76 
+ 	 Player 0D Attacking Player 10A
+ 	 Player 10A HP is 65 
+ 	 Player 10A Attacking Player 0D 
+ 	 Player 0D HP is 69 
+ 	 Player 0D Attacking Player 10A
+ 	 Player 10A HP is 52 
+ 	 Player 10A Attacking Player 0D 
+ 	 Player 0D HP is 63 
+ 	 Player 0D Attacking Player 10A
+ 	 Player 10A HP is 49 
+ 	 Player 10A Attacking Player 0D 
+ 	 Player 0D HP is 55 
+ 	 Player 0D Attacking Player 10A
+ 	 Player 10A HP is 21 
+ 	 Player 10A Attacking Player 0D 
+ 	 Player 0D HP is 41 
+ 	 Player 0D Attacking Player 10A
+ 	 Player 10A HP is 3 
+ 	 Player 10A Attacking Player 0D 
+ 	 Player 0D HP is 37 
+ 	 Player 0D Attacking Player 10A
+ 	 Player 10A HP is -21
+ 
+ 	 Player 10A Dies !!! 
+
+ 	 Player 0D Killed 1 opponent player 
+ 	 Player 0D Score is 25
+ 	 Team A remaining members are 3 
+ 
+ 	 Player 5A fighting with Player 0D 
+ 	 Player 5A has weapon Assault and Player 0D has weapon Assault 
+ 
+ 	 Player 5A Attacking Player 0D 
+ 	 Player 0D HP is 11 
+ 	 Player 0D Attacking Player 5A
+ 	 Player 5A HP is 35 
+ 	 Player 5A Attacking Player 0D 
+ 	 Player 0D HP is 5 
+ 	 Player 0D Attacking Player 5A
+ 	 Player 5A HP is 27 
+ 	 Player 5A Attacking Player 0D 
+ 	 Player 0D HP is -9
+ 	 Player 5A HP is 27
+ 	 Player 0D Dies !!! 
+
+ 	 Player 5A Killed 2 opponent player 
+ 	 Player 5A Score is 50
+ 	 Team D remaining members are 14 
+ 
+ 	 Player 13A fighting with Player 12D 
+ 	 Player 13A has weapon Assault and Player 12D has weapon Assault 
+ 
+ 	 Player 13A Attacking Player 12D 
+ 	 Player 12D HP is 89 
+ 	 Player 12D Attacking Player 13A
+ 	 Player 13A HP is 74 
+ 	 Player 13A Attacking Player 12D 
+ 	 Player 12D HP is 73 
+ 	 Player 12D Attacking Player 13A
+ 	 Player 13A HP is 67 
+ 	 Player 13A Attacking Player 12D 
+ 	 Player 12D HP is 65 
+ 	 Player 12D Attacking Player 13A
+ 	 Player 13A HP is 52 
+ 	 Player 13A Attacking Player 12D 
+ 	 Player 12D HP is 54 
+ 	 Player 12D Attacking Player 13A
+ 	 Player 13A HP is 42 
+ 	 Player 13A Attacking Player 12D 
+ 	 Player 12D HP is 39 
+ 	 Player 12D Attacking Player 13A
+ 	 Player 13A HP is 30 
+ 	 Player 13A Attacking Player 12D 
+ 	 Player 12D HP is 36 
+ 	 Player 12D Attacking Player 13A
+ 	 Player 13A HP is 4 
+ 	 Player 13A Attacking Player 12D 
+ 	 Player 12D HP is 33 
+ 	 Player 12D Attacking Player 13A
+ 	 Player 13A HP is -4
+ 
+ 	 Player 13A Dies !!! 
+
+ 	 Player 12D Killed 1 opponent player 
+ 	 Player 12D Score is 25
+ 	 Team A remaining members are 2 
+ 
+ 	 Player 2A fighting with Player 15D
+ 	 Player 2A has upgraded the Weapon to SMG 
+ 	 Player 2A has weapon SMG and Player 15D has weapon Assault 
+ 
+ 	 Player 2A Attacking Player 15D 
+ 	 Player 15D HP is 35 
+ 	 Player 15D Attacking Player 2A
+ 	 Player 2A HP is -2
+ 
+ 	 Player 2A Dies !!! 
+
+ 	 Player 15D Killed 3 opponent player 
+ 	 Player 15D Score is 75
+ 	 Team A remaining members are 1 
+ 
+ 	 Player 5A fighting with Player 10D
+ 	 Player 5A has upgraded the Weapon to Shotgun 
+ 	 Player 5A has weapon Shotgun and Player 10D has weapon Assault 
+ 
+ 	 Player 5A Attacking Player 10D 
+ 	 Player 10D HP is -5
+ 	 Player 5A HP is 27
+ 	 Player 10D Dies !!! 
+
+ 	 Player 5A Killed 3 opponent player 
+ 	 Player 5A Score is 75
+ 	 Team D remaining members are 13 
+ 
+ 	 Player 5A fighting with Player 17D
+ 	 Player 5A has upgraded the Weapon to SMG 
+ 	 Player 5A has weapon SMG and Player 17D has weapon Assault 
+ 
+ 	 Player 5A Attacking Player 17D 
+ 	 Player 17D HP is 70 
+ 	 Player 17D Attacking Player 5A
+ 	 Player 5A HP is 5 
+ 	 Player 5A Attacking Player 17D 
+ 	 Player 17D HP is 41 
+ 	 Player 17D Attacking Player 5A
+ 	 Player 5A HP is 3 
+ 	 Player 5A Attacking Player 17D 
+ 	 Player 17D HP is 13 
+ 	 Player 17D Attacking Player 5A
+ 	 Player 5A HP is -3
+ 
+ 	 Player 5A Dies !!! 
+
+ 	 Player 17D Killed 1 opponent player 
+ 	 Player 17D Score is 25
+ 	 Team A remaining members are 0 
+ 
+ 	 Team A got Defeated.  
+ 
+ 	 !!!!!!!!!!!!!!! Winning Team is Team D !!!!!!!!!!!!!!!!!!!! 

@@ -32,7 +32,7 @@ public class Player {
         weapons.add(new Sniper(10));
     }
 
-    public ArrayList<Weapon> getWeapons() {
+    public ArrayList<Weapon> getWeapons()throws NoMoreWeaponException {
         return weapons;
     }
 
@@ -76,7 +76,7 @@ public class Player {
         this.rank = rank;
     }
     public int getSelected_weapon()throws NoMoreWeaponException {
-        if (selected_weapon>5){
+        if (selected_weapon>4){
             throw new NoMoreWeaponException();
         }
         return selected_weapon;
