@@ -11,18 +11,16 @@ import java.util.Random;
 public class Main {
 
     //Other class Objects
-
-
-     private String temp = "";
      Random rand = new Random();
      ArrayList<Team> teams = new ArrayList<>();
-     Team Loser;
+      Team Loser;
+      private String temp = "";
       int l,m;
      static int member;
      double distance;
      protected static int max_team_members = 20;
 
-    public Main() throws IOException {
+    private Main() throws IOException {
         checkFile();
 
     }

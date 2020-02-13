@@ -9,7 +9,6 @@ public class Player {
 
     public int health;
     public String name;
-    public int rank;
     ArrayList<Weapon> weapons;
     public int selected_weapon;
     public int score;
@@ -20,7 +19,6 @@ public class Player {
     public Player(int health, String name, int rank, int selected_weapon) {
         this.health = health;
         this.name = name;
-        this.rank = rank;
         this.score=0;
         this.kills=0;
         this.selected_weapon = selected_weapon;
@@ -68,13 +66,6 @@ public class Player {
         this.name = name;
     }
 
-    public int getRank() {
-        return rank;
-    }
-
-    public void setRank(int rank) {
-        this.rank = rank;
-    }
     public int getSelected_weapon()throws NoMoreWeaponException {
         if (selected_weapon>4){
             throw new NoMoreWeaponException();
