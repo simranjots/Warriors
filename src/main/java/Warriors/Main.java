@@ -20,7 +20,7 @@ public class Main {
      double distance;
      protected static int max_team_members = 20;
 
-    private Main() throws IOException {
+    public Main() throws IOException {
         checkFile();
 
     }
